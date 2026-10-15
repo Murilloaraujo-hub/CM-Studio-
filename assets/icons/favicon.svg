@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <title>CM Studio</title>
-  <rect width="40" height="40" rx="10" fill="#0f6b6f"/>
-  <path d="M12 9.5h11.5l5 5V30a1.5 1.5 0 0 1-1.5 1.5H12A1.5 1.5 0 0 1 10.5 30V11A1.5 1.5 0 0 1 12 9.5z" fill="#ffffff"/>
-  <path d="M23.5 9.5v5h5" fill="none" stroke="#0f6b6f" stroke-opacity=".5" stroke-width="1.6" stroke-linejoin="round"/>
-  <path d="M14.5 18.5h7" stroke="#0f6b6f" stroke-width="2.4" stroke-linecap="round"/>
-  <path d="M14.5 22.5h10M14.5 26.5h7.5" stroke="#9fb4b5" stroke-width="2" stroke-linecap="round"/>
-</svg>
