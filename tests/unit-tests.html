@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CM Studio — Testes unitários</title>
+  <link rel="stylesheet" href="../css/templates.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; color: #1c2228; background: #f4f5f2; }
+    h1 { font-size: 1.5rem; }
+    #summary { font-weight: 700; padding: .75rem 1rem; border-radius: 8px; display: inline-block; margin: 1rem 0; }
+    #summary.ok { background: #e4f3ea; color: #1d7448; }
+    #summary.fail { background: #fdecea; color: #b42318; }
+    ul { list-style: none; padding: 0; }
+    li { padding: .4rem 0; border-bottom: 1px solid #e0e3dd; }
+    li.ok { color: #1d7448; }
+    li.fail { color: #b42318; font-weight: 600; }
+    p { max-width: 70ch; }
+  </style>
+</head>
+<body>
+  <h1>CM Studio — Testes unitários</h1>
+  <p>Estes testes rodam no próprio navegador e não precisam de instalação. Os dados salvos do CM Studio são preservados e restaurados ao final.</p>
+  <div id="summary">Executando…</div>
+  <ul id="results"></ul>
+  <div id="toast-region" hidden></div>
+
+  <script src="../js/utils.js"></script>
+  <script src="../js/catalog.js"></script>
+  <script src="../js/templates.js"></script>
+  <script src="../js/validation.js"></script>
+  <script src="../js/storage.js"></script>
+  <script src="../js/state.js"></script>
+  <script src="../js/preview.js"></script>
+  <script src="../js/samples.js"></script>
+  <script src="../js/suggestions.js"></script>
+  <script src="../js/ui.js"></script>
+  <script src="../js/export-import.js"></script>
+  <script src="unit-tests.js"></script>
+</body>
+</html>

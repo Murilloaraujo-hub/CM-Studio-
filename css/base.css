@@ -1,0 +1,121 @@
+/* ==========================================================================
+   CM Studio — base.css
+   Normalização, tipografia base, foco visível e utilitários.
+   ========================================================================== */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-h) + 12px);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-ui);
+  font-size: var(--fs-md);
+  line-height: 1.55;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 { margin: 0; line-height: 1.2; font-family: var(--font-display); letter-spacing: -0.01em; color: var(--text); }
+p { margin: 0; }
+ul, ol { margin: 0; }
+img, svg { display: block; max-width: 100%; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+a { color: var(--accent-text); text-underline-offset: 2px; }
+a:hover { color: var(--accent-hover); }
+kbd {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  padding: 0.1em 0.45em;
+  border: 1px solid var(--border-strong);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  background: var(--surface-2);
+}
+[hidden] { display: none !important; }
+
+/* Foco visível e consistente */
+:focus { outline: none; }
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  box-shadow: var(--focus-ring);
+}
+input:focus-visible, textarea:focus-visible, select:focus-visible { outline-offset: 0; }
+[tabindex="-1"]:focus-visible { outline: none; box-shadow: none; }
+
+/* Ícones do sprite */
+.sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+.icon {
+  width: 1.15em;
+  height: 1.15em;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: middle;
+}
+.icon-xl { width: 40px; height: 40px; stroke-width: 1.5; }
+
+/* Acessibilidade */
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0);
+  white-space: nowrap; border: 0;
+}
+.skip-link {
+  position: absolute;
+  left: var(--sp-4);
+  top: -100px;
+  z-index: 1000;
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--accent);
+  color: var(--on-accent);
+  border-radius: var(--r-md);
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus { top: var(--sp-3); color: var(--on-accent); }
+
+.muted { color: var(--text-2); }
+.small { font-size: var(--fs-sm); }
+.optional { font-weight: 400; color: var(--text-3); font-size: var(--fs-sm); }
+
+.noscript {
+  position: fixed; inset: auto 0 0 0;
+  padding: var(--sp-4);
+  background: #b42318; color: #fff; text-align: center; font-weight: 600;
+}
+
+/* Contêiner de medição usado pela paginação (fora da tela) */
+.measure-host {
+  position: absolute;
+  left: -20000px;
+  top: 0;
+  visibility: hidden;
+  pointer-events: none;
+  width: 210mm;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
