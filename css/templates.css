@@ -1,0 +1,424 @@
+/* ==========================================================================
+   CM Studio — templates.css
+   Estilos dos currículos (folhas A4 de 210 × 297 mm ou Letter de 215,9 × 279,4 mm).
+   Unidades em mm/pt para fidelidade na impressão. Todo o texto é escuro
+   sobre branco: cores e fundos são decorativos e não necessários para a
+   leitura (o currículo continua legível em impressão sem fundos).
+   ========================================================================== */
+
+/* ---------------- Base comum ---------------- */
+.resume-doc {
+  --r-scale: 1;
+  --r-space: 1;
+  --r-base: 10pt;
+  --r-margin-x: 18mm;
+  --r-margin-y: 16mm;
+  --r-section-gap: 12pt;
+  --r-item-gap: 7pt;
+  --r-accent: #0f6b6f;
+  --r-ink: #1b1d20;
+  --r-ink-2: #464b52;
+  --r-ink-3: #6b7178;
+  --r-rule: #cfd3d6;
+  --r-date-col: 24mm;
+  --r-font: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif;
+  --page-w: 210mm;   /* A4 */
+  --page-h: 297mm;
+
+  width: var(--page-w);
+  display: flex;
+  flex-direction: column;
+  gap: 8mm;
+  font-family: var(--r-font);
+  font-size: calc(var(--r-base) * var(--r-scale));
+  line-height: 1.38;
+  color: var(--r-ink);
+  text-align: left;
+  font-kerning: normal;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: manual;
+}
+/* US Letter: 8,5 × 11 pol. = 215,9 × 279,4 mm */
+.resume-doc.paper-letter { --page-w: 215.9mm; --page-h: 279.4mm; }
+.resume-doc.fs-small { --r-scale: 0.92; }
+.resume-doc.fs-large { --r-scale: 1.08; }
+.resume-doc.dens-compact { --r-space: 0.62; }
+.resume-doc.dens-relaxed { --r-space: 1.35; }
+.resume-doc *, .resume-doc *::before, .resume-doc *::after { box-sizing: border-box; }
+
+.resume-doc .page {
+  position: relative;
+  width: var(--page-w);
+  height: var(--page-h);
+  background: #ffffff;
+  overflow: hidden;
+  padding: var(--r-margin-y) var(--r-margin-x);
+}
+.resume-doc .page-inner { position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; }
+.resume-doc .page-cols { flex: 1; min-height: 0; display: flex; gap: var(--r-col-gap, 0); }
+.resume-doc .col { min-width: 0; overflow: hidden; }
+.resume-doc .col-main { flex: 1 1 auto; }
+.resume-doc .col-side { flex: 0 0 var(--r-side-w, 60mm); width: var(--r-side-w, 60mm); }
+
+.resume-doc .page-footer {
+  position: absolute;
+  right: var(--r-margin-x, 18mm);
+  bottom: 7mm;
+  font-size: 7.5pt;
+  color: #6b7178;
+  font-family: var(--r-font);
+  letter-spacing: 0.02em;
+}
+.resume-doc .page-running {
+  position: absolute;
+  left: var(--r-margin-x);
+  right: var(--r-margin-x);
+  top: 8mm;
+  padding-bottom: 1.5mm;
+  border-bottom: 0.5pt solid #d5d8db;
+  font-size: 7.5pt;
+  color: #6b7178;
+  letter-spacing: 0.04em;
+}
+
+/* Blocos de paginação */
+.resume-doc .rb { margin-top: calc(var(--r-item-gap) * var(--r-space)); }
+.resume-doc .rb--start { margin-top: calc(var(--r-section-gap) * var(--r-space)); }
+.resume-doc .rb--cont { margin-top: calc(1.2pt * var(--r-space)); }
+.resume-doc .col > .rb:first-child { margin-top: 0; }
+
+/* Cabeçalho */
+.resume-doc .r-header { margin: 0; }
+.resume-doc .r-name { margin: 0; font-size: 2.25em; line-height: 1.08; font-weight: 700; letter-spacing: -0.01em; color: var(--r-ink); font-family: inherit; }
+.resume-doc .r-headline { margin: 2.5pt 0 0; font-size: 1.12em; color: var(--r-ink-2); }
+.resume-doc .r-contacts { list-style: none; margin: 6pt 0 0; padding: 0; display: flex; flex-wrap: wrap; row-gap: 1.5pt; font-size: 0.92em; color: var(--r-ink-2); }
+.resume-doc .r-contacts--line li + li::before { content: "·"; margin: 0 5pt; color: var(--r-ink-3); }
+.resume-doc .r-c-label { display: none; }
+.resume-doc .r-a { color: inherit; text-decoration: none; }
+
+/* Títulos de seção */
+.resume-doc .rs-title {
+  margin: 0 0 calc(5pt * var(--r-space));
+  padding-bottom: 2pt;
+  font-family: inherit;
+  font-size: 1.02em;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  line-height: 1.25;
+  color: var(--r-accent);
+  border-bottom: 0.75pt solid var(--r-rule);
+}
+
+/* Itens (experiência, formação, projetos...) */
+.resume-doc .ri-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8pt; }
+.resume-doc .ri-title { font-weight: 700; color: var(--r-ink); }
+.resume-doc .ri-when { flex: 0 0 auto; font-size: 0.9em; color: var(--r-ink-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.resume-doc .ri-sub { color: var(--r-ink-2); }
+.resume-doc .ri-org + .ri-meta::before { content: " · "; }
+.resume-doc .ri-link { font-size: 0.9em; color: var(--r-ink-2); }
+.resume-doc .ri-date { display: none; }
+.resume-doc .r-p { margin: 2pt 0 0; }
+.resume-doc .r-ul { margin: 1.5pt 0 0; padding-left: 11pt; }
+.resume-doc .r-ul li { margin: 0; padding-left: 1pt; }
+.resume-doc .r-ul li::marker { color: var(--r-ink-3); }
+.resume-doc .ri-cont .r-p, .resume-doc .ri-cont .r-ul { margin-top: 0; }
+.resume-doc .rb--s-text .r-p:first-child { margin-top: 0; }
+.resume-doc .rb--s-text .r-ul:first-child { margin-top: 0; }
+.resume-doc .rb--s-text.rb--item, .resume-doc .rb--s-text.rb--cont { margin-top: calc(2pt * var(--r-space)); }
+
+/* Datas em coluna à esquerda (modelos acadêmicos) */
+.resume-doc.dl .ri { display: grid; grid-template-columns: var(--r-date-col) minmax(0, 1fr); column-gap: 5mm; }
+.resume-doc.dl .ri-date { display: block; font-size: 0.88em; color: var(--r-ink-2); padding-top: 0.12em; font-variant-numeric: tabular-nums; }
+.resume-doc.dl .ri-when { display: none; }
+.resume-doc.dl .ri-cont { padding-left: calc(var(--r-date-col) + 5mm); }
+
+/* Listas de habilidades */
+.resume-doc .r-tags { margin: 0; padding: 0; list-style: none; }
+.resume-doc .r-tags--chips { display: flex; flex-wrap: wrap; gap: 3.5pt; }
+.resume-doc .r-tags--chips li { border: 0.75pt solid var(--r-rule); border-radius: 3pt; padding: 0.8pt 5pt; font-size: 0.94em; }
+.resume-doc .r-tags--columns { columns: 3; column-gap: 7mm; }
+.resume-doc .r-tags--columns li { position: relative; padding-left: 9pt; break-inside: avoid; }
+.resume-doc .r-tags--columns li::before { content: "•"; position: absolute; left: 0; color: var(--r-accent); }
+.resume-doc .r-tags--list li { padding: 1pt 0; }
+
+/* Idiomas, links e referências */
+.resume-doc .r-langs, .resume-doc .r-links { list-style: none; margin: 0; padding: 0; }
+.resume-doc .r-lang, .resume-doc .r-linkitem { display: flex; flex-wrap: wrap; column-gap: 5pt; padding: 0.8pt 0; }
+.resume-doc .r-lang-name, .resume-doc .r-link-label { font-weight: 700; }
+.resume-doc .r-lang-name + .r-lang-level::before { content: "— "; color: var(--r-ink-3); }
+.resume-doc .r-lang-note { color: var(--r-ink-3); }
+.resume-doc .r-lang-note::before { content: "("; }
+.resume-doc .r-lang-note::after { content: ")"; }
+.resume-doc .r-link-label::after { content: ":"; }
+.resume-doc .r-pub { margin: 0; }
+.resume-doc .r-pub-n { font-weight: 700; color: var(--r-ink-2); }
+.resume-doc .r-pub-title { font-weight: 600; }
+.resume-doc .r-pub-venue { font-style: italic; }
+.resume-doc .r-ref-name { font-weight: 700; }
+.resume-doc .r-ref-rel, .resume-doc .r-ref-contact { color: var(--r-ink-2); }
+
+/* Textos de orientação (apenas na tela) */
+.resume-doc .is-placeholder { color: #b3b8bd !important; }
+.resume-doc .r-empty p { color: #9aa0a6; font-style: italic; margin: 0 0 3pt; }
+
+/* =====================================================================
+   1. CLÁSSICO — serifado, centralizado, títulos em versalete
+   ===================================================================== */
+.tpl-classic {
+  --r-font: Georgia, "Times New Roman", Times, "Liberation Serif", serif;
+  --r-margin-x: 20mm;
+  --r-margin-y: 18mm;
+  --r-section-gap: 11pt;
+  --r-base: 10.2pt;
+}
+.tpl-classic .r-header { text-align: center; padding-bottom: 7pt; border-bottom: 2.2pt double var(--r-ink); }
+.tpl-classic .r-name { font-weight: 400; font-size: 2.15em; letter-spacing: 0.06em; text-transform: uppercase; }
+.tpl-classic .r-headline { font-style: italic; }
+.tpl-classic .r-contacts { justify-content: center; }
+.tpl-classic .rs-title {
+  color: var(--r-ink);
+  text-transform: none;
+  font-variant: small-caps;
+  font-weight: 400;
+  font-size: 1.25em;
+  letter-spacing: 0.08em;
+  border-bottom: 0.75pt solid var(--r-accent);
+}
+.tpl-classic .ri-org { font-style: italic; }
+
+/* =====================================================================
+   2. MINIMALISTA — muito respiro, títulos em coluna lateral
+   ===================================================================== */
+.tpl-minimal {
+  --r-font: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif;
+  --r-margin-x: 19mm;
+  --r-margin-y: 20mm;
+  --r-section-gap: 15pt;
+  --r-item-gap: 8pt;
+  --r-head-col: 33mm;
+  --r-ink-2: #555a60;
+}
+.tpl-minimal .r-header { padding-bottom: 4pt; }
+.tpl-minimal .r-name { font-size: 2.6em; font-weight: 300; letter-spacing: -0.02em; }
+.tpl-minimal .r-headline { color: var(--r-accent); font-weight: 500; }
+.tpl-minimal .r-contacts { margin-top: 8pt; }
+.tpl-minimal .rb { display: grid; grid-template-columns: var(--r-head-col) minmax(0, 1fr); column-gap: 7mm; }
+.tpl-minimal .rb--header { display: block; }
+.tpl-minimal .rb-body { grid-column: 2; min-width: 0; }
+.tpl-minimal .rs-title {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+  padding: 0.15em 0 0;
+  border: 0;
+  font-size: 0.74em;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--r-ink-3);
+}
+.tpl-minimal .ri-title { font-weight: 600; }
+.tpl-minimal .ri-when { color: var(--r-ink-3); }
+
+/* =====================================================================
+   3. CORPORATIVO — barra superior, contatos à direita, faixas de título
+   ===================================================================== */
+.tpl-corporate {
+  --r-font: "Segoe UI", "Helvetica Neue", Arial, "Liberation Sans", sans-serif;
+  --r-margin-x: 16mm;
+  --r-margin-y: 14mm;
+  --r-section-gap: 11pt;
+}
+.tpl-corporate .r-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 10mm;
+  align-items: end;
+  border-top: 5pt solid var(--r-accent);
+  padding: 8pt 0 7pt;
+  border-bottom: 0.75pt solid var(--r-rule);
+}
+.tpl-corporate .r-name { grid-column: 1; font-size: 2.15em; letter-spacing: -0.015em; }
+.tpl-corporate .r-headline { grid-column: 1; color: var(--r-accent); font-weight: 650; text-transform: uppercase; font-size: 0.92em; letter-spacing: 0.08em; }
+.tpl-corporate .r-contacts--grid { grid-column: 2; grid-row: 1 / span 2; display: block; margin: 0; text-align: right; font-size: 0.86em; }
+.tpl-corporate .r-contacts--grid li { display: block; line-height: 1.45; }
+.tpl-corporate .r-contacts--grid .r-c-label { display: none; }
+.tpl-corporate .rs-title {
+  background: #eef1f2;
+  color: var(--r-ink);
+  border: 0;
+  border-left: 3pt solid var(--r-accent);
+  padding: 2.5pt 6pt;
+  font-size: 0.92em;
+  letter-spacing: 0.09em;
+}
+.tpl-corporate .ri-org { font-weight: 600; color: var(--r-ink-2); }
+
+/* =====================================================================
+   4. MODERNO — barra lateral com contatos e habilidades
+   ===================================================================== */
+.tpl-modern {
+  --r-font: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Liberation Sans", sans-serif;
+  --r-margin-x: 0mm;
+  --r-margin-y: 0mm;
+  --r-side-w: 62mm;
+  --r-section-gap: 12pt;
+}
+.tpl-modern .page::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: var(--r-side-w);
+  background: #edf3f3;
+  background: color-mix(in srgb, var(--r-accent) 8%, #ffffff);
+  border-right: 0.75pt solid color-mix(in srgb, var(--r-accent) 22%, #ffffff);
+}
+.tpl-modern .col-side { padding: 17mm 7mm 14mm 9mm; font-size: 0.92em; }
+.tpl-modern .col-main { padding: 15mm 15mm 14mm 9mm; }
+.tpl-modern .page-footer { right: 15mm; }
+.tpl-modern .r-name { font-size: 2.35em; line-height: 1.04; }
+.tpl-modern .r-headline { color: var(--r-accent); font-weight: 600; font-size: 1.12em; margin-top: 4pt; }
+.tpl-modern .r-header { padding-bottom: 8pt; position: relative; }
+.tpl-modern .r-header::after { content: ""; display: block; width: 18mm; height: 0; border-top: 2.5pt solid var(--r-accent); margin-top: 8pt; }
+.tpl-modern .rs-title { border: 0; padding: 0; font-size: 0.95em; letter-spacing: 0.12em; }
+.tpl-modern .col-side .rs-title { font-size: 0.82em; color: var(--r-ink); padding-bottom: 2pt; border-bottom: 0.75pt solid rgba(0, 0, 0, 0.16); }
+.tpl-modern .r-contacts--stack { display: block; margin: 0; font-size: 1em; color: var(--r-ink); }
+.tpl-modern .r-contacts--stack li { display: block; margin-bottom: 4pt; overflow-wrap: anywhere; }
+.tpl-modern .r-contacts--stack .r-c-label { display: block; font-size: 0.78em; letter-spacing: 0.08em; text-transform: uppercase; color: var(--r-ink-3); }
+.tpl-modern .col-side .r-lang { display: block; }
+.tpl-modern .col-side .r-lang-level { display: block; color: var(--r-ink-2); }
+.tpl-modern .col-side .r-lang-name + .r-lang-level::before { content: ""; }
+.tpl-modern .col-side .r-linkitem { display: block; overflow-wrap: anywhere; }
+.tpl-modern .col-side .r-link-label { display: block; }
+.tpl-modern .col-side .r-link-label::after { content: ""; }
+.tpl-modern .col-side .r-tags--list li { padding: 1.2pt 0; }
+
+/* =====================================================================
+   5. ACADÊMICO — datas em coluna, serifado e sóbrio
+   ===================================================================== */
+.tpl-academic {
+  --r-font: "Palatino Linotype", Palatino, "Book Antiqua", "TeX Gyre Pagella", Georgia, serif;
+  --r-margin-x: 20mm;
+  --r-margin-y: 18mm;
+  --r-date-col: 25mm;
+  --r-base: 10.3pt;
+}
+.tpl-academic .r-header { text-align: center; padding-bottom: 6pt; }
+.tpl-academic .r-name { font-size: 2.05em; font-weight: 600; letter-spacing: 0.01em; }
+.tpl-academic .r-headline { font-style: italic; }
+.tpl-academic .r-contacts { justify-content: center; }
+.tpl-academic .rs-title {
+  text-transform: none;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  font-size: 1.22em;
+  font-weight: 600;
+  border-bottom: 0.6pt solid var(--r-ink-3);
+}
+.tpl-academic .ri-org { font-style: italic; }
+
+/* =====================================================================
+   6. ESCOLAR / ESTUDANTIL — claro, acolhedor, ideal para 1 página
+   ===================================================================== */
+.tpl-school {
+  --r-font: "Trebuchet MS", "Segoe UI", Verdana, "DejaVu Sans", sans-serif;
+  --r-margin-x: 17mm;
+  --r-margin-y: 16mm;
+  --r-section-gap: 11pt;
+}
+.tpl-school .r-header { border-left: 4pt solid var(--r-accent); padding: 2pt 0 2pt 9pt; }
+.tpl-school .r-name { color: var(--r-accent); font-size: 2.1em; }
+.tpl-school .r-headline { color: var(--r-ink); font-weight: 600; }
+.tpl-school .rs-title {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 1.14em;
+  color: var(--r-ink);
+  border-bottom: 1.2pt solid color-mix(in srgb, var(--r-accent) 45%, #ffffff);
+}
+.tpl-school .rs-title span::before { content: "■"; color: var(--r-accent); font-size: 0.7em; margin-right: 5pt; position: relative; top: -0.12em; }
+.tpl-school .ri-org { color: var(--r-ink-2); }
+
+/* =====================================================================
+   7. PRIMEIRO EMPREGO — objetivo em destaque e leitura direta
+   ===================================================================== */
+.tpl-firstJob {
+  --r-font: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Liberation Sans", sans-serif;
+  --r-margin-x: 18mm;
+  --r-margin-y: 16mm;
+  --r-base: 10.5pt;
+  --r-section-gap: 11pt;
+}
+.tpl-firstJob .r-header { text-align: center; padding-bottom: 8pt; border-bottom: 2pt solid var(--r-accent); }
+.tpl-firstJob .r-name { font-size: 2.15em; }
+.tpl-firstJob .r-contacts { justify-content: center; }
+.tpl-firstJob .rs-title { color: var(--r-accent); text-transform: none; letter-spacing: 0; font-size: 1.18em; border-bottom: 0.75pt solid var(--r-rule); }
+.tpl-firstJob .rb--k-summary .rb-body { border-left: 2.5pt solid var(--r-accent); padding: 1pt 0 1pt 8pt; }
+.tpl-firstJob .rb--k-summary.rb--item,
+.tpl-firstJob .rb--k-summary.rb--cont { margin-top: 0; }
+.tpl-firstJob .rb--k-summary.rb--item .rb-body { padding-top: 2pt; }
+
+/* =====================================================================
+   8. ATS — linear, sem colunas nem cores
+   ===================================================================== */
+.tpl-ats {
+  --r-font: Arial, Helvetica, "Liberation Sans", sans-serif;
+  --r-margin-x: 20mm;
+  --r-margin-y: 18mm;
+  --r-ink-2: #222222;
+  --r-ink-3: #333333;
+  --r-rule: #000000;
+}
+.tpl-ats .r-name { font-size: 1.8em; }
+.tpl-ats .r-headline { color: #000; }
+.tpl-ats .r-contacts--labeled { display: block; color: #000; }
+.tpl-ats .r-contacts--labeled li { display: block; }
+.tpl-ats .r-contacts--labeled .r-c-label { display: inline; font-weight: 700; }
+.tpl-ats .rs-title { color: #000; font-size: 1.05em; letter-spacing: 0.04em; border-bottom: 0.75pt solid #000; }
+.tpl-ats .ri-head { display: block; }
+.tpl-ats .ri-when { display: block; font-size: 0.95em; color: #222; }
+.tpl-ats .ri-org + .ri-meta::before { content: " | "; }
+.tpl-ats .r-ul li::marker { color: #000; }
+
+/* =====================================================================
+   9. ACADÊMICO ESTENDIDO — várias páginas, cabeçalho corrido
+   ===================================================================== */
+.tpl-academicExtended {
+  --r-font: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --r-margin-x: 21mm;
+  --r-margin-y: 19mm;
+  --r-date-col: 23mm;
+  --r-section-gap: 13pt;
+}
+.tpl-academicExtended .r-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 10mm;
+  align-items: end;
+  padding-bottom: 8pt;
+  border-bottom: 1.2pt solid var(--r-ink);
+}
+.tpl-academicExtended .r-name { grid-column: 1; font-size: 2.1em; font-weight: 400; letter-spacing: 0.01em; }
+.tpl-academicExtended .r-headline { grid-column: 1; font-style: italic; }
+.tpl-academicExtended .r-contacts--grid { grid-column: 2; grid-row: 1 / span 2; display: block; margin: 0; text-align: right; font-size: 0.86em; }
+.tpl-academicExtended .r-contacts--grid li { display: block; line-height: 1.45; }
+.tpl-academicExtended .r-contacts--grid .r-c-label { display: none; }
+.tpl-academicExtended .rs-title {
+  font-size: 0.86em;
+  letter-spacing: 0.16em;
+  font-weight: 700;
+  color: var(--r-accent);
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: calc(6pt * var(--r-space));
+  display: flex;
+  align-items: center;
+  gap: 6pt;
+}
+.tpl-academicExtended .rs-title::after { content: ""; flex: 1; border-top: 0.5pt solid var(--r-rule); }
+.tpl-academicExtended .ri-org { font-style: italic; }
+.tpl-academicExtended .r-pub { padding-left: 7mm; text-indent: -7mm; }
+.tpl-academicExtended .rb--s-publication.rb--item { margin-top: calc(4pt * var(--r-space)); }

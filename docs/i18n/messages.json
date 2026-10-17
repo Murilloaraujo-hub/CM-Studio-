@@ -1,0 +1,9302 @@
+{
+ "source": "pt-BR",
+ "count": 1537,
+ "messages": [
+  {
+   "id": " (adicione uma foto em Dados pessoais)",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": " (cópia)",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": " (exibida apenas no modelo Lebenslauf)",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": " (já existe no currículo)",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": " (recomendado: até {0})",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": " (tradução incompleta)",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": " Atenção: você escolheu {0}, diferente do padrão ({1}).",
+   "where": [
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": " Você escolheu um tamanho diferente do padrão — é permitido, mas confira antes de imprimir.",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": " e no topo do documento)",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": " página",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": " páginas",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": " páginas sugeridas ({0})",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": " seções no currículo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": " termos frequentes da vaga já aparecem no seu currículo.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": " · consulta em {0}",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": " · dado pessoal: inclua só se necessário",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": " — cartas costumam ter 1 página.",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": " — o modelo atual não exibe foto",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "\"{0}\" adicionado à seção \"{1}\".",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "\"{0}\" está preenchido e não é recomendado para {1}. Ele será mantido, mas você verá um aviso na revisão.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "\"{0}\" está preenchido, mas {1} em currículos para {2}. Remova, a menos que a vaga peça.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "\"{0}\" removido",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "\"{0}\" será excluído permanentemente deste navegador. Esta ação não pode ser desfeita.",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "\"{0}\" será excluído. Você pode desfazer logo em seguida (Ctrl+Z).",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "(44) 90000-0000 ou +55 44 90000-0000",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "(opcional — só você vê)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "(sem verbo — escrever livremente)",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "- Apoio em [atividade] para [público atendido].\n- Organização de [campanha ou evento].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "- Apoio à equipe de [área] em [processo].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "- Atendimento a [público] por [canal], com foco em [aspecto].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "- Organização de [evento ou atividade] com [colegas, grupo].\n- Representação da turma em [ocasião].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "- Participação em [etapa da pesquisa] sob orientação de [nome ou cargo].\n- Apresentação dos resultados em [evento], se houver.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "- Pesquisa sobre [tema] e apresentação para [turma, escola ou banca].\n- Responsável por [parte do projeto].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "- Responsável por [atividade] utilizando [ferramenta ou método].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "- [Verbo de ação] [funcionalidade ou etapa] usando [ferramenta].\n- Resultado: [resultado real].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "- [Verbo de ação] [tarefa] para [objetivo], resultando em [resultado real].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "0 KB",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "1 página",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "1º parágrafo: a vaga e por que você se interessa. 2º–3º: o que você oferece, com exemplos verdadeiros ligados aos requisitos. Final: disponibilidade e agradecimento.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<a href=\"#/ajuda/paises\">Países e idiomas</a> <a href=\"#/ajuda/idiomas\">Idiomas da interface</a> <a href=\"#/ajuda/tipos\">Tipos de currículo</a> <a href=\"#/ajuda/sem-experiencia\">Sem experiência</a> <a href=\"#/ajuda/escolar\">Escolar e acadêmico</a> <a href=\"#/ajuda/pdf\">Imprimir e PDF</a> <a href=\"#/ajuda/dados\">Dados e backups</a> <a href=\"#/ajuda/ats\">Modelo ATS</a> <a href=\"#/ajuda/vaga\">Analisar uma vaga</a> <a href=\"#/ajuda/cartas\">Cartas</a> <a href=\"#/ajuda/atalhos\">Atalhos</a>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<kbd>Ctrl</kbd> + <kbd>P</kbd>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<kbd>Ctrl</kbd> + <kbd>S</kbd>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<kbd>Ctrl</kbd> + <kbd>Y</kbd> ou <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Z</kbd>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<kbd>Ctrl</kbd> + <kbd>Z</kbd>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<kbd>Tab</kbd> / <kbd>Shift</kbd> + <kbd>Tab</kbd>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<kbd>←</kbd> <kbd>→</kbd> (com a aba em foco)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<kbd>⌘</kbd> + <kbd>P</kbd>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<kbd>⌘</kbd> + <kbd>S</kbd>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>Z</kbd>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<kbd>⌘</kbd> + <kbd>Z</kbd>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>CM Studio</strong> — Seu currículo, sua próxima oportunidade.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>Cursos:</strong> cursos livres, on-line ou presenciais, com carga horária quando houver.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>Escolha o objetivo.</strong> Primeiro emprego, jovem aprendiz, escolar, estágio… O CM Studio sugere só as seções que fazem sentido.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>Formação:</strong> escola, série/ano, turno e previsão de conclusão.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>Habilidades:</strong> apenas as que você consegue demonstrar.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>País, idioma e finalidade são independentes.</strong> Você pode, por exemplo, criar um currículo para Portugal em inglês. Tudo pode ser trocado depois, no editor, sem perder dados.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>Preencha o que for verdadeiro.</strong> Nenhum campo é obrigatório e seções vazias não aparecem no currículo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>Projetos escolares e pessoais:</strong> explique o objetivo e qual foi a sua parte.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>Revise e gere o PDF.</strong> Use a aba Revisão e depois “Imprimir / Salvar como PDF”.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>Valorize o que você já fez.</strong> Projetos escolares, cursos, voluntariado e atividades contam — sem fingir que foram empregos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "<strong>Voluntariado e atividades:</strong> grupos, esportes, música, monitorias, eventos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A Hello Work cita a folha de envio para documentos enviados. O Tokyo Career Guide informa que carta de apresentação não é exigida.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A análise é feita só neste navegador: o texto da vaga não é enviado para lugar nenhum.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "A escolha inicial ajusta as seções, as dicas e o modelo. Você pode trocar depois sem perder nada.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A finalidade \"{0}\" não se aplica a {1} no CM Studio. Considere outra finalidade.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "A finalidade atual não se aplica a {0}. Você poderá escolher outra depois.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "A finalidade define as seções sugeridas e as orientações. Admissão em faculdade é diferente de candidatura a emprego.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A fonte consultada não trata de foto. Na dúvida, não inclua (o CM Studio deixa desativado).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A fonte municipal cita no máximo 2 folhas A4.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A fonte municipal diz que a foto profissional não é obrigatória, mas é habitual. Fonte não nacional: confirme.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A fonte não fixa número de páginas (2 é uma referência, não verificada).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A fonte não fixa número de páginas; 1 a 2 é comum (não verificado).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A fonte não fixa número de páginas; 1 página é comum no início de carreira (não verificado).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A fonte oficial não trata de foto. O CM Studio deixa desativado; confirme com o empregador.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A fonte recomenda 1 a 2 páginas A4.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A fonte recomenda limitar o CV a duas páginas A4.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A foto do documento era inválida ou grande demais e foi descartada.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "A foto está ativada, mas a orientação para {0} é não incluir foto. {1}",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "A foto está ativada. Não há orientação verificada sobre foto para {0}.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "A foto está ativada; para {0} a orientação é não incluir.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "A imagem tem mais de 10 MB. Escolha um arquivo menor.",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "A imagem é reduzida no seu navegador e não é enviada para nenhum servidor.",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "A janela de impressão do navegador será aberta. Para obter um PDF:",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "A página consultada não trata de foto. Não incluir foto é a prática comum no Reino Unido (não verificado na fonte).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A seção \"{0}\" e todo o seu conteúdo serão removidos deste currículo. Você pode desfazer logo em seguida (Ctrl+Z).",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "A seção \"{0}\" está oculta e não aparecerá no currículo.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "A seção \"{0}\" está vazia e não aparecerá no currículo.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "A seção \"{0}\" está vazia. Um texto curto ajuda a apresentar você.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "A tradução dos rótulos para este idioma está incompleta.",
+   "where": [
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "A tradução dos rótulos para {0} está incompleta ({1} itens usam inglês).",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "A tradução dos rótulos para {0} está incompleta; alguns rótulos aparecerão em inglês.",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "A4",
+   "where": [
+    "js/editor-context.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "A4 (210 × 297 mm)",
+   "where": [
+    "js/country-rules.js",
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "A4 (DIN A4) é o papel padrão na Alemanha.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A4 é o papel padrão em Portugal.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A4 é o papel padrão na Austrália (convenção não tratada na fonte).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A4 é o papel padrão na França.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A4 é o papel padrão na Itália.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A4 é o papel padrão na Nova Zelândia (convenção não tratada na fonte).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A4 é o papel padrão na Suíça (convenção não tratada na fonte).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A4 é o papel padrão no Reino Unido (convenção não tratada na fonte).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A4 é o tamanho de papel usado no Brasil.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "A4 é o tamanho mais usado no mundo; troque para Letter se o destino usar esse padrão.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "ATS (Applicant Tracking System) são sistemas que algumas empresas usam para ler currículos automaticamente. O modelo ATS do CM Studio usa uma coluna, texto selecionável, títulos convencionais, nenhuma cor e nenhum elemento gráfico complexo, o que tende a facilitar a leitura.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "ATS (leitura automatizada)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Abrir",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Abrir a revisão",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Abrir cópia",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Abrir impressão",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "Abrir menu",
+   "where": [
+    "js/app.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Abrir {0}",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Academic CV",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Acadêmico",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Acadêmico estendido",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Adaptabilidade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Adaptada à vaga e enviada com o currículo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Adaptação automática",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Adapte o CV a cada oferta; você pode pôr a experiência antes da formação.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Adapte o CV a cada vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Adapte o CV ao anúncio da vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Adapte o CV à vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Adapte o conteúdo usando a descrição da vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Adapte o résumé ao tipo de vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Adiciona os currículos do arquivo aos que já existem. Nada é apagado.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Adicionar",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Adicionar a Competências",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Adicionar item",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Adicionar seção",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Adicionar seção {0}{1}",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Adicione pelo menos uma forma de contato (e-mail ou telefone).",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Admissão em universidade não é candidatura a emprego: muitas instituições usam formulários próprios. Confirme se um currículo é aceito.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Agência ou instituição",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ajuda",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ajuda para descrever uma conquista",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Ajustar idioma",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ajustar à largura",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Alemanha",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Alemão (Alemanha)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Alemão (Suíça)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Alterado {0} ({1})",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Alterar",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Alteração desfeita",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Alteração refeita",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Alterações pendentes",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Alterações salvas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Alternar entre edição e visualização",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Alternar tema claro/escuro",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Amplo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "América do Norte",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "América do Sul",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Analisar localmente",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Analisar uma vaga (aba “Vaga”)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Anexos (opcional)",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Ano",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ano e mês japoneses (ex.: 2023年3月)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ano ou data",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Anschreiben",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Anschreiben (Alemanha / Suíça)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Anschreiben (carta de candidatura)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Antes de enviar",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Análise concluída: {0} de {1} termos já aparecem no currículo.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Análise de dados",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ao criar um currículo, você escolhe o <strong>país de destino</strong> — onde vai se candidatar, não a sua nacionalidade. O país ajusta o idioma sugerido, o tamanho do papel (A4 ou Letter), as seções e títulos, os dados pessoais recomendados, a orientação sobre foto, o formato de datas e as dicas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Apaga os {0} currículo(s) atuais deste navegador e mantém apenas os do arquivo.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Apagar análise",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Apagar análise da vaga?",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Apagar dados locais",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Apagar todos os dados",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Apagar todos os dados?",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "Apagar tudo",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "Aparece em: {0}",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Aparência",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Aplicar",
+   "where": [
+    "js/editor-context.js",
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Aplicar o modelo recomendado para o novo tipo neste país",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Apresentações de slides",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Apresentações e eventos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Armazenamento",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Armazenamento e backups",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Armazenamento em nuvem",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Arquivos de backup importados são lidos apenas como dados: nenhum código contido neles é executado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "As orientações de cada país são <strong>convenções</strong>, não exigências legais. Quando a vaga ou a instituição der instruções próprias, siga-as.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "As principais orientações deste perfil foram conferidas em fontes oficiais ou institucionais, listadas com data de consulta.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "As seções sugeridas para o novo tipo que ainda não existem serão adicionadas vazias — elas só aparecem no currículo depois de preenchidas.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Assinatura e data ao final.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Assunto",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Atalhos de teclado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Atalhos de teclado (no editor)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Atendimento ao cliente",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Atenção",
+   "where": [
+    "js/country-selector.js",
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Atenção: ",
+   "where": [
+    "js/ui.js"
+   ]
+  },
+  {
+   "id": "Ativar declaração",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ativar tema claro",
+   "where": [
+    "js/app.js"
+   ]
+  },
+  {
+   "id": "Ativar tema escuro",
+   "where": [
+    "js/app.js"
+   ]
+  },
+  {
+   "id": "Atividade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Atividades e resultados",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Atividades extracurriculares",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Atualizar títulos para o idioma",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Atuação voluntária em [organização], apoiando [atividade] com [frequência].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Atuo com [atividade principal] desde [ano], com experiência em [ferramentas ou processos]. Tenho interesse em oportunidades de [cargo ou área] para aplicar [competência real].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Até 2 páginas, se possível (Tahatū).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Até duas páginas A4 (EURES).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Aumentar zoom",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ausentes no currículo ({0})",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Austrália",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Autoapresentação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Automático",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Automático pelo país ({0})",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Autores",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Autorização de trabalho / visto",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Avançado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Avisos",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Azul",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Backup com {0} currículos exportado.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Backup do currículo exportado.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Banco de dados (SQL)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Barra lateral com contatos e habilidades; conteúdo principal amplo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Base: ",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Bewerbungsschreiben / lettre de motivation",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Bolsa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Bolsa de estudos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Bolsa ou auxílio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Bolsas e auxílios",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Brasil",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Buscar currículos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Buscar país",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Buscar país (ex.: Portugal, Japão, Deutschland)",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Buscar por nome ou tipo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Busco estágio em [área] para aplicar conhecimentos adquiridos em [disciplinas ou projetos] e desenvolver experiência prática.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Busco minha primeira oportunidade como [cargo ou área], para aplicar o que aprendi em [curso ou escola] e desenvolver novas habilidades na prática.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Busco participar de [programa ou atividade] para desenvolver [habilidade] e contribuir com [tema ou causa] na minha escola e comunidade.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Busco uma vaga de Jovem Aprendiz para conhecer o ambiente de trabalho na área de [área], conciliando com meus estudos no [turno].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Básico",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CM",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CM Studio",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "CM Studio · versão 1.0.0",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CM Studio — Seu currículo, sua próxima oportunidade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CM Studio — página inicial",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CM Studio: gerador de currículos gratuito para quem busca o primeiro emprego, estágio, vagas profissionais, processos escolares e acadêmicos. Os dados ficam no seu navegador.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV / Lebenslauf",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV / résumé",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV académique",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV adaptado com carta, autorização de tratamento de dados, foto e certificados só se pedidos, Europass. (Conteúdo obtido por trecho de busca.)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV atualizado e adaptado à vaga, com autorização para o tratamento de dados pessoais. Foto e certificados só se forem pedidos. O Europass é uma opção.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV claro de 1 a 2 páginas A4, com experiência mais recente primeiro e títulos em negrito. Para vagas anunciadas, envie sempre uma cover letter.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV com seções claras (contato, apresentação, formação, experiência, referências), sem idade, data de nascimento, estado civil ou nacionalidade.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV de até 2 páginas, simples e sem imagens, com personal statement, key skills ligadas ao anúncio, histórico em ordem inversa e referees.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV em ordem cronológica inversa, com 1 a 2 páginas, maiores realizações na metade superior da 1.ª página e formação profissional separada da educação. A fotografia é muitas vezes valorizada.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV livre: não é obrigatório e a lei não define conteúdo. Costuma trazer coordenadas, percurso profissional e formação; a foto é opcional. As informações devem ter ligação direta com a vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "CV não obrigatório, sem menções legais obrigatórias, foto eventual, ligação direta com a vaga, informações discriminatórias, boa-fé.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cabeçalho firme, faixas de título e leitura objetiva.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cada documento tem idioma e orientações próprios e é impresso separadamente. Nada daqui é inserido no currículo.",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Cada escola, faculdade, edital ou programa pode ter regras próprias (formato, idioma, número de páginas, documentos). <strong>Siga sempre essas regras</strong>; elas têm prioridade sobre os modelos do CM Studio.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cada país tem convenções próprias de idioma, papel, foto e dados pessoais. Escolha o destino — não a sua nacionalidade — e o CM Studio ajusta o currículo. Cada perfil indica se foi verificado em fonte oficial.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cada perfil tem um selo: <em>Verificado</em> (conferido em fonte oficial ou institucional), <em>Parcial</em>, <em>Preliminar</em> ou <em>Genérico</em>. As fontes ficam listadas com a data de consulta.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cada programa de bolsa tem regras próprias — leia o edital antes de enviar.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Campo de gênero opcional; remoção de deslocamento, dependentes e cônjuge. (Anúncio original não consultado diretamente.)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Campos do 履歴書, foto, furigana, dados não exigidos, 職務経歴書 de 1 a 2 páginas, carta não exigida, résumé em inglês.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Canadá",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cancelar",
+   "where": [
+    "js/editor-context.js",
+    "js/editor.js",
+    "js/export-import.js",
+    "js/print.js",
+    "js/ui.js",
+    "js/writing-assistant.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Candidato(a) ao programa Jovem Aprendiz, cursando o [série/ano] do [nível de ensino] no período [turno]. Tenho interesse em aprender sobre [área] e desenvolver responsabilidade e organização.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Candidatura (motivação e apresentação)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carga horária",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cargo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cargo da vaga (opcional)",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Cargo ou área desejada",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carregar versão mais recente",
+   "where": [
+    "js/app.js"
+   ]
+  },
+  {
+   "id": "Carta",
+   "where": [
+    "js/letters.js"
+   ]
+  },
+  {
+   "id": "Carta comum em candidaturas na França; confirme se a vaga pede.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carta curta e específica para a vaga, enviada com o résumé.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carta de apresentação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carta de apresentação (cover letter)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carta de apresentação / motivação (Portugal, Espanha, Itália)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carta de candidatura / motivação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carta de condução só se for requisito da vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carta de presentación",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carta, CV de até 3 páginas sem lacunas, dados pessoais com foto, seções, certificados em PDF, referências sob pedido.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cartas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cartas e documentos complementares",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Cartas e documentos complementares (aba “Cartas”)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Carteira de motorista",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Catorze composições, incluindo modelos específicos (résumé norte-americano, Lebenslauf, estilo Europass, 履歴書 e 職務経歴書). As miniaturas usam dados fictícios.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Central de ajuda",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Central de ajuda — CM Studio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Certificado ou observação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Certificados (JLPT, TOEIC etc.) com data e nome oficial correto.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Certificados de trabalho (Arbeitszeugnisse), diplomas e certificados: todos, em ordem cronológica, em um único PDF.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Certificados e referências só se forem pedidos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Certificados essenciais (formação profissional, escola, diplomas universitários).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Certificação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Certificações",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade (ex.: Manchester). Endereço completo não é necessário.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade (ex.: Wellington).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade de residência (em CVs on-line, sem endereço completo).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade e estado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade e estado (ex.: Boston, MA). Endereço completo é opcional.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade e estado (ex.: Brisbane, QLD).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade e estado (ex.: Maringá/PR). Endereço completo não é necessário.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade e país",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Cidade e país.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade e país/região",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Cidade e província.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade, ou endereço completo se quiser (as coordenadas podem incluir o endereço).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cidade/UF",
+   "where": [
+    "js/editor.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cinco elementos: empregador, trabalho, esforços, resultados e aspirações futuras.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Claro",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Claro e acolhedor, ideal para estudantes e uma página.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Clubes e grupos de estudo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Clássico",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cole a descrição completa da vaga (pelo menos algumas frases).",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Cole a descrição da vaga e o CM Studio compara, <strong>no seu navegador</strong>, as palavras mais frequentes do anúncio com o texto do seu currículo. Nada é enviado pela internet.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cole aqui o texto do anúncio: requisitos, atividades, diferenciais...",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Coloque as maiores realizações na metade superior da primeira página.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Coloque primeiro as experiências mais relevantes para a vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Com pouca experiência, o EURES menciona o modelo cronológico crescente.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Com seu endereço, o da empresa, data, assunto, saudação, fechamento e assinatura.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Comece com o básico e monte as seções do seu jeito.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Começa com poucas seções para você montar do seu jeito com “Adicionar seção”.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Como deseja importar?",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Como escolher o idioma",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Como esse termo deve aparecer no seu currículo?",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Como funcionam os perfis",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Como imprimir ou salvar em PDF",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Como os dados são locais, eles podem ser perdidos se o navegador for limpo. Exporte backups regularmente em <a href=\"#/configuracoes\">Configurações</a>.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Como ou com quais ferramentas? (opcional)",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Compacto",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Comparar com uma vaga",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Competências",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Completo",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Comprovantes (diplomas, certificados) só quando solicitados.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Comum",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Comum em vagas do governo australiano: um título por critério e uma resposta com exemplo concreto (situação, ação, resultado).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Comunicação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Concedido por / resultado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Conciso. Uma página é comum no início de carreira (convenção não fixada pela fonte).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Concluir",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Conclusão (ou previsão)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Concluído",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Conferido na Hello Work (Ministério da Saúde, Trabalho e Bem-Estar — MHLW) e no Tokyo Career Guide (Governo Metropolitano de Tóquio). As mudanças no formulário modelo do MHLW foram confirmadas por fontes secundárias que citam o anúncio do ministério.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Configurações",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Configurações do documento",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Configurações — CM Studio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Confira se o tamanho do papel é {0} (o papel deste documento) e a escala está em 100% (ou \"Padrão\").",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "Confira sempre as regras da instituição, do edital ou do processo seletivo: elas têm prioridade sobre qualquer modelo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Confira: papel <strong>A4</strong> ou <strong>Letter</strong> (o tamanho do documento aparece na barra do editor), escala <strong>100%</strong> ou “Padrão”, margens <strong>Nenhuma</strong> ou “Padrão”.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Confirmar",
+   "where": [
+    "js/ui.js"
+   ]
+  },
+  {
+   "id": "Confirme que todas as informações são verdadeiras.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Confirme se o processo pede.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Conhecimentos de informática",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Contato (com autorização)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Contexto do documento",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Contexto ou instituição",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Conteúdo",
+   "where": [
+    "js/letters-ui.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Conteúdo do CV, 1 a 2 páginas A4, ordem da experiência, cover letter sempre.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Conteúdo e dados pessoais conferidos no National Careers Service (gov.uk). Foto e número de páginas não são tratados na página consultada.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Conteúdos: [principais temas aprendidos].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Continuar",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Continue de onde parou",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Controle financeiro",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Convenções usadas SEM verificação na fonte",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Cor de destaque",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Corporativo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cover letter",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cover letter / Lettre de présentation",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cover letter · Lettre de présentation",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Criar",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Criar currículo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Criar currículo com o modelo {0}",
+   "where": [
+    "js/home.js"
+   ]
+  },
+  {
+   "id": "Criar currículo — CM Studio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Criar documento",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Criar e começar a editar",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Criar novo currículo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Criar outro tipo de documento",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Criatividade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Crie carta de apresentação, <em>lettre de motivation</em>, <em>Anschreiben</em>, resumo de projeto, lista de publicações, portfólio, folha de referências ou respostas a critérios de seleção. Cada documento tem idioma e orientação próprios e é impresso <strong>separadamente</strong> — nunca é misturado ao currículo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Crie currículos profissionais, escolares e acadêmicos para o Brasil e outros 14 países, com orientação passo a passo, modelos sóbrios e impressão em A4 ou Letter — sem cadastro e sem enviar seus dados para servidores.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Crie dois documentos com os mesmos dados: um no modelo 履歴書 e outro no 職務経歴書 (use \"Duplicar\" e troque o modelo).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Crie seu primeiro currículo ou importe um backup exportado anteriormente.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cronologia inversa, 1 a 2 páginas, estrutura do CV, local de residência sem morada, fotografia valorizada, carta de 1 página, documentos só quando pedidos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Curriculum Vitae",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Curriculum Vitae (CV acadêmico)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Curriculum vitae",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Currículo",
+   "where": [
+    "js/app.js",
+    "js/export-import.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Currículo claro e conciso de até duas páginas, adaptado à vaga, sem foto e sem dados pessoais como idade, estado civil ou religião.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Currículo criado para {0}. As alterações são salvas automaticamente.",
+   "where": [
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "Currículo em formato de tabela (período | conteúdo), com dados pessoais em bloco e espaço opcional para foto, local, data e assinatura.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Currículo excluído.",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Currículo importado",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Currículo neutro, sem foto e sem dados sensíveis por padrão. Ajuste conforme as orientações do país de destino.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Currículo não encontrado.",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Currículo objetivo, normalmente de 1 a 2 páginas, sem foto e sem documentos pessoais. Direcione o conteúdo para a vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Currículo profissional",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Currículo renomeado.",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Currículo salvo neste navegador.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Currículo sem nome",
+   "where": [
+    "js/editor.js",
+    "js/home.js",
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Currículos escolares e acadêmicos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Currículos salvos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Currículum vítae",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cursando / em andamento",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Curso [on-line/presencial] com foco em [tema]. Projeto final: [descrição, se houver].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Curso, série ou nível",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cursos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cursos livres, presenciais ou on-line que você realmente concluiu ou está cursando.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Curta, nunca mais de 1 página A4. Cada vez mais substituída pelo texto do e-mail com o CV em anexo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Curta: no máximo 1 página A4. Mostre a relação entre o seu perfil e a vaga, com palavras-chave do anúncio.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cv",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Cópia \"{0}\" criada em Meus currículos.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Cópia criada: \"{0}\".",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Cópias de títulos só quando pedidas (normalmente levadas à entrevista).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Dados adicionais (opcionais para {0})",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Dados e backups",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Dados no seu navegador",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Dados pessoais",
+   "where": [
+    "js/job-analyzer.js"
+   ]
+  },
+  {
+   "id": "Dados pessoais e contato",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Dados pessoais e foto",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Dados pessoais, foto habitual não obrigatória, no máximo 2 folhas A4, cronologia inversa, PDF. (Fonte municipal.)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Data",
+   "where": [
+    "js/letters-ui.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Data de conclusão",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Data de criação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Data de nascimento",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Data de nascimento (não tratada na fonte).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Data de nascimento no modelo (o formulário do MHLW não foi aberto diretamente).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Datas em coluna, serifado e sóbrio, para seleções acadêmicas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Datas iguais nos dois documentos. Licenças e qualificações em ordem de obtenção.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "De 1 a 2 páginas (EURES).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "De 1 a 2 páginas A4 (JobsIreland).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "De 1 a 3 páginas, conforme o tempo de experiência (Governo de Queensland).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "De outro país",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Declaração de autorização para tratamento de dados pessoais",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Deixe uma linha em branco entre parágrafos. Linhas iniciadas com \"-\" viram lista. O texto não é traduzido automaticamente.",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Desative \"Cabeçalhos e rodapés\" para não imprimir data e endereço da página.",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "Desative “Cabeçalhos e rodapés”. Opcionalmente, ative “Gráficos de plano de fundo”.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Descreva apenas o que é verdadeiro. Se não tiver um número real (medido ou informado por alguém), deixe o campo de número vazio: um bom tópico também funciona sem números.",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Descrever uma conquista",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Descrição",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Descrição (opcional)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Descrição da vaga",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Desfazer",
+   "where": [
+    "js/editor.js",
+    "js/job-panel.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Desfazer (Ctrl+Z)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Desfazer marcação",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Design",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Design gráfico",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Destaque conquistas reais e o impacto das suas atividades.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Destaque trajetória escolar, conquistas, olimpíadas, projetos e atividades. Siga sempre o edital da bolsa.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Destinatário: pessoa (se souber)",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Detalhes",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Detalhes (opcional)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Dica: comece uma linha com \"-\" para criar um tópico.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Dicas",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Diferente do padrão do país",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Diferenças entre regiões linguísticas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Digitação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Digite e pressione Enter",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Digite e pressione Enter (ou vírgula) para adicionar. Inclua só o que você domina.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Diminuir zoom",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Diplomas, certificados de trabalho e recomendações só quando pedidos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Direcionar para a vaga; evitar foto, pretensão salarial, RG, CNH e CPF; não usar pronomes pessoais. (Página antiga, cerca de 2009.)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Direcione o currículo para a vaga e coloque um objetivo claro.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Disciplina",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Disciplinas de interesse",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Documento",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Documento complementar",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Documento criado. Ele é separado do currículo.",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Documento inválido.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Documento japonês de histórico profissional: 職務要約, 職務経歴 por empresa, スキル, 資格 e 自己PR. Normalmente de 1 a 2 páginas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Documento sem a lista de seções.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Documento: {0}",
+   "where": [
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "Documentos de apoio",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Documentos salvos neste navegador. Cada currículo é independente.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Dois documentos separados: o 履歴書 (formulário padronizado com dados, histórico escolar e profissional, licenças e motivação) e o 職務経歴書 (1 a 2 páginas detalhando a carreira). Quem tem bom inglês pode enviar também um résumé em inglês.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Dossiê de candidatura com carta, CV completo e sem lacunas de até três páginas (com dados pessoais e foto) e certificados de trabalho, diplomas e certificados em um PDF.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Duas a quatro frases sobre o que você busca e o que pode oferecer. Seja específico e verdadeiro.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Duas páginas costumam ser suficientes para a maioria das vagas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Duas páginas é uma convenção comum (não fixada pela página consultada).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Duas páginas, adaptar à vaga, sem foto, sem dados pessoais, nunca o SIN, referências em folha separada, voluntariado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Duas páginas, sem imagens, personal statement, key skills, palavras-chave, referees, PDF.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Duas páginas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Duplicar \"{0}\"",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Duplicar este currículo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Duplicar item",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Duplicar seção \"{0}\"",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "E-mail",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "E-mail e agenda on-line",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "E-mail inválido. Exemplo de formato: nome@exemplo.com",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "EURES Espanha: carta mostra interesse e destaca aspectos do CV",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "EURES Portugal: cartas curtas, nunca mais que 1 página A4",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "EURES — Comissão Europeia",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Editado: \"{0}\"",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Editando",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Editando: {0}",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Editar",
+   "where": [
+    "js/job-panel.js",
+    "js/letters-ui.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Editar termo",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Editar {0}",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Editor",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Editor de currículo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Editor de textos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Editor — CM Studio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Edição de imagens",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Edição de vídeo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Elementos opcionais",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Em \"Destino\" (ou \"Impressora\"), escolha \"Salvar como PDF\".",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "Em \"Margens\", use \"Nenhuma\" ou \"Padrão\" — o currículo já tem margens próprias.",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "Em <a href=\"#/novo\">Criar currículo</a>, escolha “Escolar / estudantil”, “Faculdade / processo seletivo acadêmico” ou “Acadêmico estendido”.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Em Portugal, muitas vezes é substituída pelo texto do e-mail com o CV anexado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Em andamento (atual)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Em francês, 1 página. Estrutura comum: você (a empresa e a vaga), eu (o que você traz, com exemplos), nós (o que farão juntos) e pedido de entrevista.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Em vários países, as referências são enviadas em folha separada, quando pedidas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Embasa: {0}",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Emissor",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Empatia",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Empresa ou instituição",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Empresa ou instituição (opcional)",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Empresa ou organização",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Encontrados no currículo",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Endereço",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Endereço (URL)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Endereço atual começando pelo país, se morar fora do Japão (Tokyo Career Guide).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Endereço com CEP e cidade (os dados pessoais costumam incluir o endereço).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Endereço do destinatário (opcional)",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Endereço inválido. Use um link completo, como https://site.com",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Endereço ou cidade e condado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Endereço ou cidade e província (ex.: Toronto, ON).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Endereço postal (a carta de candidatura inclui o seu endereço).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Envie em PDF, salvo pedido de Word; nome do arquivo: nome-sobrenome-CV.pdf.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Envie em PDF.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Envie sempre com o CV para vagas anunciadas; endereçada a uma pessoa; de preferência 1 página, nunca mais de 2.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Erro ao salvar",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Erro: ",
+   "where": [
+    "js/ui.js"
+   ]
+  },
+  {
+   "id": "Escolar",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Escolar / estudantil",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Escolar e extracurricular",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Escolha a região linguística: o idioma do documento muda conforme a região da vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Escolha o modelo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Escolha o país <strong>onde você vai se candidatar</strong> — não a sua nacionalidade. O país ajusta o idioma sugerido, o tamanho do papel, as seções, os dados pessoais recomendados e as dicas. <strong>Você pode mudar depois</strong>, sem perder o que escreveu.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Escolha o tipo de seção. Ela será adicionada ao final e você pode reordená-la depois.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Escolher foto",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "Escolher idioma manualmente (trocar de país não muda a interface)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Escolher modelo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Escuro",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Espanha",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Espanhol (Espanha)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Espaçamento",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Espaço usado (aprox.)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Específico de outro país",
+   "where": [
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "Esportes, música, oficinas, monitorias voluntárias, competições e outras atividades reais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Essenciais",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Esta versão pode ter várias páginas. Para uma versão curta, troque para \"Faculdade / processo seletivo acadêmico\".",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Estados Unidos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Este arquivo não foi reconhecido como backup do CM Studio (campo \"format\" ausente ou diferente).",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Este aviso não é impresso.",
+   "where": [
+    "js/renderers/jp-rirekisho.js"
+   ]
+  },
+  {
+   "id": "Este backup foi criado por uma versão mais nova ou desconhecida do CM Studio.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Este currículo foi alterado em outra aba ou janela. Para evitar perda de dados, edite-o em apenas uma aba.",
+   "where": [
+    "js/app.js"
+   ]
+  },
+  {
+   "id": "Este currículo não foi encontrado neste navegador. Ele pode ter sido excluído ou criado em outro navegador/dispositivo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Este item será removido da seção \"{0}\".",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Este perfil não tem fontes: é genérico.",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Estilo Europass",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Estrutura \"vous–moi–nous\" é uma convenção usual, NÃO verificada em fonte oficial nesta versão.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Estudante de [curso ou série], em busca do primeiro emprego na área de [área]. Tenho facilidade com [habilidade real] e disponibilidade no período [turno].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Estudante de [curso] com interesse em [área de estudo]. Busco ingressar em [programa ou instituição] para aprofundar meus estudos em [tema].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Estudante de [curso], no [semestre] semestre, em busca de estágio na área de [área]. Tenho conhecimentos em [ferramentas ou conteúdos reais] e disponibilidade no período [turno].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Estudante do [série/ano] do [nível de ensino], interessado(a) em participar de [programa, feira ou projeto] para aprofundar meus conhecimentos em [disciplina ou tema].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Estágio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Etapas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Europa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Evento",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: 03/2023",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: 12/2024",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: 12/2026",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: 14/05/2001",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: 20 pedidos por dia; 3 turmas. Não estime nem arredonde para cima.",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Ex.: 2024",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: 2025",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: 40 h",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Busco oportunidade de [área] para aplicar [conhecimentos reais]...",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Candidato(a) ao programa Jovem Aprendiz",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Categoria B",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Curitiba/PR ou Remoto",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Currículo para estágio em administração",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Disciplina de Biologia",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Em busca do primeiro emprego na área administrativa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Ensino Médio — 2º ano",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Escola Estadual ...",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Estudante candidato(a) à bolsa ...",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Estudante de Administração — 4º semestre",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Estudante de Engenharia Ambiental",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Estudante do 2º ano do Ensino Médio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Estudante interessado(a) em intercâmbio acadêmico",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Inglês",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Integrante, responsável pela pesquisa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Interessado(a) em atuar como voluntário(a)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Maringá/PR",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Mestrando(a) em Ciências Biológicas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Meu ponto forte é [característica]. Em [situação real], eu [ação] e [resultado observado].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Orientadora de iniciação científica",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Pesquisador(a) em Ciência de Dados aplicada à saúde",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Portfólio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Possuo autorização de trabalho válida",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Quero atuar em [área] porque [motivo real], e a [organização] me interessa por [fato verificável].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: SOBRENOME, Nome; SOBRENOME, Nome",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: Sigo as condições da empresa.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: disponibilidade de horário, CNH, disponibilidade para viagens (apenas se for relevante).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: editor de textos, planilhas, apresentações, e-mail, digitação.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: menos atrasos na reposição de produtos",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Ex.: o controle de estoque da loja · the weekly shift schedule",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Ex.: planilhas compartilhadas",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Ex.: Ênfase, trabalho de conclusão, destaques reais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ex.: しるば まりあ",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Excluir",
+   "where": [
+    "js/letters-ui.js",
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Excluir \"{0}\"",
+   "where": [
+    "js/letters-ui.js",
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Excluir currículo?",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Excluir documento?",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Excluir item",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Excluir item?",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Excluir seção",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Excluir seção \"{0}\"",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Excluir seção?",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Exemplo inserido. Edite os trechos entre colchetes.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Exemplos para \"{0}\"",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Experiência em [setor], com foco em [especialidade]. Entre os resultados recentes, [resultado real e verificável].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Experiência mais recente primeiro, com 2 a 3 linhas por cargo (método STAR).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Experiência profissional",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Explique lacunas no percurso: o arbeit.swiss pede um CV sem lacunas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Exportar backup agora",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "Exportar backup atual antes",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Exportar backup completo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Exportar backup de {0}",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Exportar backup deste currículo antes",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Exportar este currículo (backup JSON)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Exportar todos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Facilidade de aprendizado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Faculdade / processo seletivo acadêmico",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Faixa etária, duração e jornada do contrato de aprendizagem; frequência escolar.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Fechar",
+   "where": [
+    "js/editor.js",
+    "js/ui.js"
+   ]
+  },
+  {
+   "id": "Fechar aviso",
+   "where": [
+    "js/ui.js"
+   ]
+  },
+  {
+   "id": "Fechar editor",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Fechar menu",
+   "where": [
+    "js/app.js"
+   ]
+  },
+  {
+   "id": "Fecho",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Feira ou evento",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Feiras de ciências",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ferramentas, programas, linguagens ou técnicas que você sabe usar.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Finalidade",
+   "where": [
+    "js/editor-context.js",
+    "js/new-document.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Finalidade · {0}",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Finalidades disponíveis para {0}. A finalidade define as seções sugeridas e as orientações. Admissão em faculdade é diferente de candidatura a emprego.",
+   "where": [
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "Fluente",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Folha de referências",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Folha de referências (referees)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Folhas do currículo (role para ver todas as páginas)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Fonte simples (ex.: Calibri 11), tópicos, frases curtas, títulos em negrito e espaço em branco.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Fontes",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Fontes consultadas em 15/10/2026. Orientações podem mudar; confira a fonte antes de enviar.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Fontes e detalhes do perfil {0}",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Formato de data \"Mar 2023\".",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Formato de data MM.AAAA.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Formato de data MM/AAAA.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Formato de data.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Formato em tabela, cronologia inversa, foto frequente mas variável, idiomas com QECR, Europass como guia, certificados e traduções, envio em PDF.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Formato não aceito. Use JPG, PNG ou WebP.",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "Formação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Foto",
+   "where": [
+    "js/country-selector.js",
+    "js/preview.js"
+   ]
+  },
+  {
+   "id": "Foto (opcional)",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "Foto adicionada (reduzida e guardada só neste navegador).",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "Foto e data de nascimento (não tratadas na fonte).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Foto não é exigida. O guia da Prefeitura de São Paulo recomenda não incluir foto. Inclua só se o processo pedir.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Foto opcional",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Foto é comum, mas opcional",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Foto, idade e estado civil não são necessários.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Francês (Canadá)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Francês (França)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Francês (Suíça)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "França",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Função",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Função ou atividade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Genérico",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Genérico (não verificado)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Gerador de currículos gratuito",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Gestão de projetos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Gestão do tempo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Git e GitHub",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "GitHub",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Grafite",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Grande",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Gratuito, sem cadastro. Seus dados ficam neste navegador. <a href=\"#/ajuda/dados\">Saiba mais</a>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Grupo ou clube",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Grêmio estudantil e organizações",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "HTML e CSS",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Habilidades pessoais",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Habilidades técnicas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Harvard FAS — Mignone Center for Career Success",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Hello Work — MHLW",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Hobbies e interesses só quando mostram habilidades.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Hobbies só se tiverem relação com a vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Há trechos entre [colchetes] vindos de exemplos. Substitua-os por informações reais ou apague-os.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Há um link inválido em \"{0}\".",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Idioma",
+   "where": [
+    "js/editor-context.js",
+    "js/letters-ui.js",
+    "js/ui-language.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Idioma alterado para {0}{1}.",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Idioma automático pelo país (a interface muda quando você escolhe um país)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Idioma automático pelo país: {0}",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Idioma da interface",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Idioma da interface: {0}",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Idioma deste documento",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Idioma do documento",
+   "where": [
+    "js/editor-context.js",
+    "js/new-document.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Idioma do documento: {0} → {1}",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Idioma do documento: {0} → {1} (títulos padrão serão traduzidos; títulos personalizados e seu texto são mantidos)",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "Idioma dos menus, botões e mensagens do CM Studio. É independente do país de destino (que define as regras) e do idioma do documento (o que vai impresso no currículo). Atual:",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Idioma escolhido",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Idioma original",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Idioma sugerido",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Idiomas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Idiomas da interface",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Idiomas disponíveis na interface",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Idiomas sugeridos",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Idiomas, estudos e atividades ganham destaque. Alguns programas exigem o currículo em outro idioma — confira antes.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ignorado",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Ignorar",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Importar",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Importar backup",
+   "where": [
+    "js/export-import.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Importação parcial: {0} salvo(s). {1}",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Imprima ou salve em PDF",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Imprimir / PDF",
+   "where": [
+    "js/letters-ui.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Imprimir / Salvar como PDF",
+   "where": [
+    "js/letters-ui.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Imprimir ou salvar como PDF",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "Inclua a autorização de tratamento de dados (ative em Design → Declaração de privacidade).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inclua apenas informações com ligação direta com a vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inclua apenas os dados pessoais pedidos pelo processo seletivo.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Inclua apenas se o processo pedir, e somente com autorização das pessoas indicadas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inclua apenas trabalhos que você pode mostrar e que são seus.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inclua o código internacional do país (ex.: +55).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inclua o ensino atual ou mais recente. Para quem ainda estuda, informe a previsão de conclusão.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inclua somente o que for verdadeiro. O assistente “Ajuda para descrever uma conquista” monta tópicos apenas com as informações que você digitar e nunca inventa números.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inclua trabalho voluntário e não remunerado: o Job Bank recomenda.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inclua treinamentos no trabalho e voluntariado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Indique 2 a 3 referees ou \"Referees available on request\".",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Informações adicionais",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Informações falsas podem levar à demissão por falta grave: seja exato.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Informe a série/ano e o turno em que estuda — isso ajuda a empresa a organizar sua jornada.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Informe certificados de proficiência apenas se você os possui.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Informe curso, semestre, turno e previsão de formatura. Projetos de disciplinas e atividades extracurriculares são muito valorizados.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Informe idiomas com o nível do QECR (ex.: Englisch: C1).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Informe o nível com honestidade. Português pode ser omitido em vagas no Brasil.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Informe o semestre atual, o turno e a previsão de formatura.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Informe seu nome completo.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Informe sua disponibilidade de dias e horários.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inglês (Austrália)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inglês (Canadá)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inglês (Estados Unidos)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inglês (Irlanda)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inglês (Nova Zelândia)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inglês (Reino Unido)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Inserir exemplo {0} no campo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Inserir no campo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Inserir tópico",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Inspirado na estrutura do CV Europass: rótulos à esquerda e conteúdo à direita. Não é o formulário oficial do Europass.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Instituição",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Instituição / orientação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Instituição de ensino",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Instituição ou plataforma",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Intercâmbio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Interesses",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Interesses de pesquisa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Interface em {0}, o idioma de {1}.",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Intermediário",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Interrompido",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Início",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ir para Meus currículos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ir para a foto",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ir para o campo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Irlanda",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Isso remove {0} e todas as preferências do CM Studio deste navegador. A ação não pode ser desfeita.",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "Isto não é uma nota nem uma previsão de aprovação: apenas indica palavras em comum. Inclua um termo somente se ele for verdadeiro para você.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Italiano (Itália)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Italiano (Suíça)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Item excluído.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Itens de {0}",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Itens ordenados do mais recente para o mais antigo. Use Ctrl+Z para desfazer.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Itália",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Japonês",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Japão",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "JavaScript",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Job Bank — Government of Canada",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "JobsIreland (IE): sempre enviar carta com o CV; 1 página se possível, nunca mais que 2",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "JobsIreland — Department of Social Protection",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Jovem aprendiz",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Já adicionada",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Krimpenwijzer — Gemeente Krimpen aan den IJssel",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Layout claro, sem erros, com títulos em negrito.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Layout em grade inspirado no formulário modelo japonês: dados, foto, 学歴・職歴 em linhas 年|月, 免許・資格, 志望動機 e 本人希望. Use o formulário da empresa, se houver.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Lebenslauf",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Lebenslauf (tabellarisch)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Lebenslauf / CV / Curriculum vitae",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Lebenslauf em formato de tabela, com experiência e formação em ordem cronológica inversa, idiomas com níveis do QECR (ex.: Englisch C1) e, em geral, Anschreiben e certificados (Zeugnisse).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Lebenslauf tabular",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Leia o anúncio: em geral pedem carta, currículo e certificados.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Leia o currículo inteiro na pré-visualização e corrija erros de digitação.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Leitura do nome (furigana)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ler a Central de ajuda",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Letter (216 × 279 mm)",
+   "where": [
+    "js/country-rules.js",
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Letter (Carta)",
+   "where": [
+    "js/editor-context.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Lettera di presentazione",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Lettera di presentazione / motivazionale",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Lettre de motivation",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Lettre de motivation (França)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Liderança de equipes",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Limite de duas páginas (Job Bank).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Limite o currículo a duas páginas e destaque o que é mais recente.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Limites: é uma comparação de palavras. Não reconhece sinônimos, não avalia sua experiência real, não calcula nota e não garante aprovação em sistemas de triagem (ATS) nem em processos seletivos.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Linguagem, ordem cronológica inversa, sem foto/idade/gênero, sem referências, adaptar à vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Linha de local, data e assinatura no final{0}",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Link (opcional)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Link ou DOI (opcional)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "LinkedIn",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Lista de publicações",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Liste apenas publicações publicadas ou aceitas; trabalhos em andamento devem ser identificados como tal.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Liste apenas trabalhos publicados ou aceitos. Siga a norma pedida (ABNT, APA etc.).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Liste do mais recente para o mais antigo. Descreva atividades e resultados reais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Local",
+   "where": [
+    "js/letters-ui.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Local (neste navegador)",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "Local de residência: cidade e país (não a morada completa).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Local ou organização",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Local, data e assinatura ao final do Lebenslauf são uma prática tradicional (não verificada na fonte). Opcional.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "MM.AAAA (ex.: 03.2023)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "MM/AAAA (ex.: 03/2023)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Make it in Germany — Governo Federal da Alemanha",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Make it in Germany: candidatura com carta, CV e certificados (Zeugnisse)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Manter {0}",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Mencione a vaga, sua motivação e as qualificações mais relevantes; anexos (Lebenslauf, Zeugnisse) ao final.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Mencione causas e atividades com que você realmente se identifica.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Mensagens que ainda não foram traduzidas aparecem em inglês, nunca como códigos técnicos. Variantes regionais (por exemplo, inglês do Reino Unido ou alemão da Suíça) usam a tradução-base com ajustes automáticos de grafia.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Mensagens traduzidas",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Mesclar",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Meus currículos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Meus currículos — CM Studio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Minimalista",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ministério do Trabalho e Emprego (gov.br)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Modelo",
+   "where": [
+    "js/editor-context.js",
+    "js/new-document.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Modelo neutro para países sem perfil próprio. Não há verificação de regras locais: confirme com o empregador, a instituição ou o serviço público de emprego do país.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Modelo neutro para países sem perfil próprio. Não reflete regras de nenhum país específico.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Modelo visual",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Modelo {0}",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Modelo {0} aplicado. Seus dados foram preservados.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Modelo: {0} → {1} (recomendado)",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "Modelos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Modelos indicados para o país e a finalidade escolhidos. A pré-visualização usa dados fictícios.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Moderno",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Monitoria",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Mostrar a foto no currículo",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "Mostrar dicas e orientações dentro das seções",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Mostrar foto{0}{1}",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Mostrar orientações antes de imprimir / salvar como PDF",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Mostrar outros campos ({0}) — normalmente não usados em {1}",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Mostrar seção \"{0}\" no currículo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Mostrar também modelos específicos de outros países ({0})",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Mostrar todos os modelos (inclusive os específicos de outros países)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Mostre interesse e destaque os pontos do CV que importam à empresa.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Motivação para a candidatura",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Mover item para baixo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Mover item para cima",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Mover seção \"{0}\" para baixo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Mover seção \"{0}\" para cima",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Muitas seleções de pós-graduação no Brasil pedem o Currículo Lattes. Este documento é complementar e não o substitui.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Muito espaço em branco e títulos em coluna lateral.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Mês abreviado e ano (ex.: Mar 2023)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Na aba <em>Revisão</em>, veja avisos e o número de páginas. O modelo escolar é pensado para caber em uma página.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Na experiência, informe datas, cargo, empregador e responsabilidades, do mais recente ao mais antigo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Na janela do navegador, em “Destino” ou “Impressora”, escolha <strong>Salvar como PDF</strong> (no Safari: menu “PDF” → “Salvar como PDF”).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nacionalidade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "National Careers Service (UK) e Tahatū (NZ): \"references available on request\" é aceitável, salvo pedido do anúncio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "National Careers Service (gov.uk)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nativo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Navegar entre campos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Navegação e pesquisa na internet",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Neerlandês (Países Baixos)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Negociação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nenhum",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Nenhum arquivo selecionado.",
+   "where": [
+    "js/export-import.js",
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "Nenhum currículo corresponde à busca.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nenhum currículo salvo ainda",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nenhum currículo válido foi encontrado no arquivo.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Nenhum dado de currículo é enviado pela internet e não há ferramentas de rastreamento ou análise.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nenhum dado preenchido será apagado. O texto que você escreveu não é traduzido.",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Nenhum documento complementar criado.",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Nenhum item adicionado.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Nenhum país encontrado. Use \"Outros países\" para um modelo genérico.",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Nenhum problema encontrado. Revise o texto com calma antes de enviar.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Nenhum termo frequente da vaga está ausente.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Nenhum título padrão para atualizar.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Nenhuma alteração selecionada.",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Nenhuma informação preenchida será apagada.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "No editor, clique em <strong>Imprimir / Salvar como PDF</strong> (ou use Ctrl+P).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "No formulário modelo do MHLW, o campo de gênero é opcional e foram removidos tempo de deslocamento, número de dependentes e cônjuge.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "No início da carreira, a formação pode vir antes da experiência; mostre habilidades de projetos e voluntariado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "No máximo 2 páginas A4 (fonte municipal).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "No máximo três páginas (arbeit.swiss).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "No 履歴書, a leitura do nome (ふりがな) costuma aparecer acima do nome.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "No 職務経歴書: visão geral da empresa (porte, ramo), números concretos, separe o resultado da empresa do seu e indique quantas pessoas você gerenciou.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nome",
+   "where": [
+    "js/ui.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nome (A–Z)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nome (aparece no topo)",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Nome completo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nome do curso",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nome do documento",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nome do link",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nome do projeto",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nome na assinatura",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Nome, cargo, organização, relação com você e contato — só com autorização da pessoa.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nomes de instituições podem ficar em inglês. O histórico escolar antes dos 18 anos pode ser omitido.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Normal",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Normalmente não se usa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Normalmente sem foto (não verificado na fonte)",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "Nos EUA o papel padrão é o US Letter (8,5 × 11 pol.). Convenção não tratada nas fontes consultadas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nova Zelândia",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Novo currículo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Novo item (vazio)",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Novo nome",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Numerar páginas quando houver mais de uma",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Nunca apresente atividades escolares ou voluntárias como se fossem empregos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nunca informe o número de seguro social (SIN).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não apresente atividades escolares, voluntárias ou ajudas informais como se fossem empregos com carteira assinada. Use as seções corretas — isso transmite honestidade e organização.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não coloque os contatos das referências; use \"References available on request\".",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não comece cada linha com a data; mantenha o formato consistente.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não exibido no 履歴書 (aparece no 職務経歴書 ou em outros modelos): {0}.",
+   "where": [
+    "js/renderers/jp-rirekisho.js"
+   ]
+  },
+  {
+   "id": "Não existe garantia de compatibilidade com todos os sistemas: cada empresa usa ferramentas diferentes. Quando a vaga pedir um formato específico, siga a orientação dela.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não existe limite fixo de páginas para currículos de pesquisa, mas organize do mais recente para o mais antigo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não foi encontrada fonte oficial nacional suficiente. As orientações são iniciais e devem ser confirmadas com o empregador ou instituição.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não foi encontrada uma orientação federal (gov.br) sobre formato de currículo. As regras do programa Jovem Aprendiz vêm do Ministério do Trabalho; as recomendações de conteúdo vêm de um guia da Prefeitura de São Paulo. O restante segue as convenções do CM Studio, indicadas como não verificadas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não foi obtida orientação nacional oficial (werk.nl/UWV). Este perfil usa apenas o portal de informações de um município (Krimpen aan den IJssel) e deve ser confirmado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não foi possível gerar o arquivo de backup.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Não foi possível importar o arquivo.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Não foi possível ler a imagem.",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "Não foi possível ler o arquivo.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Não foi possível reduzir a imagem a um tamanho seguro.",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "Não foi possível salvar.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não há currículos para exportar.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Não há modelo único: adapte o CV a cada oferta, de preferência em até duas páginas A4. Modelos cronológico, funcional ou europeu (Europass); foto não obrigatória.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não há sincronização entre dispositivos nem cópia na nuvem.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não inclua CPF, RG, número da CNH, estado civil ou endereço completo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não inclua foto, idade, data de nascimento ou gênero.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não inclua foto.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não inclua idade, data de nascimento, estado civil ou nacionalidade.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não inclua idade, peso, altura, estado civil, religião ou opiniões políticas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não inclua publicações ou pesquisas que ainda não existem.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não incluir foto (orientação da fonte)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não incluir foto e data de nascimento.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não incluir foto.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não indique a morada completa; basta a cidade e o país.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não informar",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não informar estado civil e idade.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não informe nacionalidade, religião, número de passaporte, conta bancária, altura, peso nem dados de familiares (Tokyo Career Guide).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não liste referências no résumé; envie-as quando forem pedidas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não mostrar estas orientações novamente",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "Não recomendado neste país",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não tenho experiência. E agora?",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não ter experiência formal é normal no início. Um bom currículo de primeiro emprego mostra o que você <strong>realmente</strong> já fez e aprendeu:",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não ter experiência formal é normal: valorize estudos, cursos, projetos e voluntariado reais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não traduza o nome das suas instituições ou diplomas como se fossem equivalentes alemães; se quiser, acrescente uma tradução entre parênteses.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não use pronomes pessoais nem enfeites; revise a ortografia.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não use pronomes pessoais, abreviações, gírias nem estilo narrativo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não verificado em fonte oficial.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não é necessário colocar CPF, RG, foto ou endereço completo no currículo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Não é necessário informar CPF, RG, foto, estado civil ou endereço completo. Inclua somente o que o processo seletivo pedir.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Não é obrigatória, embora possa ser útil para algumas vagas (EURES).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Nível",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Número de páginas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Número real, se você tiver (opcional)",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "O CM Studio funciona inteiramente no seu navegador. Não há servidor, banco de dados remoto, conta ou login.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O CM Studio traduz apenas títulos e rótulos impressos. <strong>O texto que você escreve não é traduzido.</strong> Nomes de instituições e cursos devem ficar no original; uma tradução pode vir entre parênteses. O CM Studio não afirma equivalência entre diplomas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O CM Studio traduz apenas títulos e rótulos. O texto que você escreveu não é traduzido: revise-o no idioma do documento. Nomes de instituições e cursos devem ficar no original (tradução opcional entre parênteses).",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "O CV deve ser completo e claro, sem lacunas, e em ordem cronológica (mais recente primeiro).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O CV pode ser em neerlandês ou inglês, conforme a vaga.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O CV é enviado junto com uma cover letter.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O Canadá usa o papel Letter no dia a dia (convenção não tratada na fonte).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O EURES cita carta de apresentação e/ou motivacional junto do CV.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O EURES informa que os CVs enviados a empresas devem conter autorização para o tratamento de dados pessoais, conforme a legislação de proteção de dados. Ative a declaração na aba Design.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O Europass pode servir de guia, mas as empresas costumam valorizar um design próprio.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O Europass é uma alternativa europeia padronizada, não uma obrigação.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O Europass é uma opção de modelo europeu, não uma obrigação.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O Job Bank informa que incluir foto \"não é a norma no Canadá\".",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O Job Bank recomenda não pôr referências no currículo e entregá-las em folha separada, quando pedidas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O National Careers Service tem orientação própria para cover letters.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O PDF é gerado pelo próprio navegador — o CM Studio não usa bibliotecas externas de PDF. Por isso, pequenas diferenças entre navegadores podem acontecer. Navegadores baseados em Chromium (Chrome, Edge, Brave) costumam produzir o resultado mais fiel à pré-visualização. Em celulares, a opção de PDF varia conforme o sistema.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O Service-Public menciona \"eventualmente uma fotografia de identidade\": é opcional.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O Tahatū recomenda não usar imagens no CV.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O Tokyo Career Guide descreve foto no 履歴書 (fundo branco ou azul liso, traje formal). Continua opcional no CM Studio: siga o que a empresa pedir.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O arbeit.swiss lista os dados pessoais \"incluindo fotografia\". Continua opcional no CM Studio.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O arquivo contém {0}:",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "O arquivo não parece ser uma imagem válida.",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "O arquivo não tem o formato de backup do CM Studio.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "O arquivo não é um JSON válido. Verifique se escolheu um backup exportado pelo CM Studio.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "O arquivo é grande demais (máximo de 5 MB).",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "O backup não contém a lista de currículos.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "O currículo está longo ({0} páginas). Verifique se todas as informações são relevantes.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "O currículo nº {0} foi ignorado por estar inválido.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "O currículo tem {0} páginas. Para \"{1}\"{2}, o recomendado é até {3}. Tente resumir descrições, usar o espaçamento compacto ou remover seções menos relevantes.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "O e-mail informado parece inválido.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "O empregador pode verificar os diplomas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O endereço acessado não existe ou o currículo foi excluído.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O endereço acessado não existe.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O espaço de armazenamento do navegador está cheio. Exporte um backup e exclua currículos que não usa mais.",
+   "where": [
+    "js/storage.js"
+   ]
+  },
+  {
+   "id": "O formulário modelo do MHLW existe em A3 (dobrado) e A4. O CM Studio usa A4.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O guia de Harvard orienta não incluir foto, idade ou gênero.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O idioma da interface foi mantido ({0}). Idioma padrão de {1}: {2}.",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "O idioma da interface muda menus, botões, mensagens, avisos e a ajuda. Ele é separado do idioma do documento e nunca altera as regras do país. No modo automático, a interface acompanha o país escolhido; no modo manual, sua escolha é mantida até você trocá-la.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O idioma do documento ({0}) não é um dos sugeridos para {1} ({2}). Isso é permitido; confirme se a vaga aceita esse idioma.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "O idioma escolhido não é um dos sugeridos para {0}. É permitido; confirme se a vaga aceita.",
+   "where": [
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "O link em \"{0}\" é inválido e não aparecerá como link.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "O modelo \"{0}\" não exibe foto. Modelos com foto: Lebenslauf, Estilo Europass e 履歴書.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "O modelo \"{0}\" é específico de outro país e não é o mais indicado para {1}.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "O modelo ATS não usa cores, para máxima compatibilidade.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "O modelo atual não exibe foto. Modelos com espaço para foto: Lebenslauf, Estilo Europass e 履歴書.",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "O modelo escolhido é específico de outro país.",
+   "where": [
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "O navegador bloqueou a janela de impressão.",
+   "where": [
+    "js/letters.js",
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "O navegador não permitiu salvar os dados.",
+   "where": [
+    "js/storage.js"
+   ]
+  },
+  {
+   "id": "O papel está em {0}, mas o padrão para {1} é {2}. Se for imprimir ou enviar em PDF, confira o tamanho.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "O país é o destino da candidatura, não a sua nacionalidade. Trocar o país não apaga nenhum dado.",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "O país é o destino da candidatura. Brasil é o padrão. Você poderá trocar o país, o idioma e o modelo a qualquer momento no editor.",
+   "where": [
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "O perfil de {0} é {1}. Confirme as orientações com o empregador ou a instituição.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "O próprio Tahatū alerta: ao usar IA, peça que use apenas as suas informações e não invente detalhes.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O que vai mudar:",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "O que você fez? (obrigatório)",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "O que é o modelo ATS?",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O telefone informado parece incompleto.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "O tema muda apenas o aplicativo. Os currículos são sempre impressos em fundo branco.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "O texto da vaga e as marcações serão removidos deste currículo. O conteúdo do currículo não é alterado.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "O texto que você escrever aparecerá aqui.",
+   "where": [
+    "js/letters.js"
+   ]
+  },
+  {
+   "id": "O texto é montado com as suas palavras, no idioma em que você escrever. Revise a concordância antes de usar.",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Objetivo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Objetivo em destaque e seções diretas para quem está começando.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Observações e preferências",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Oceania",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Oculta",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Ocultar campos não usados neste país",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Ocultar seção \"{0}\" do currículo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Olimpíada",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Olimpíadas acadêmicas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Opcional",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Opcional — informe apenas quando for apropriado.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Opcional. Útil quando a vaga pede ou quando o envio é por e-mail.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Opcional: ative \"Gráficos de plano de fundo\" para manter cores suaves.",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "Opções",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Ordenar por",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ordenar por data",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Organização",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Organização ou projeto",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Organize as seções por importância e em ordem cronológica inversa.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações conferidas no Job Bank, do Governo do Canadá. O tamanho do papel não é tratado na fonte.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações conferidas no JobsIreland (Department of Social Protection). A fonte oficial não trata de foto nem de data de nascimento.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações conferidas no Tahatū Career Navigator, do Governo da Nova Zelândia (substituiu o careers.govt.nz).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações conferidas no arbeit.swiss (SECO, portal oficial; maio de 2026). Diferenças entre as regiões linguísticas não foram verificadas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações conferidas no portal EURES (Comissão Europeia), página sobre condições de vida e de trabalho em Portugal, datada de 03/07/2026.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações conferidas no portal oficial Make it in Germany, do Governo Federal. O portal da Agência Federal de Emprego (arbeitsagentur.de) não foi consultado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações conferidas no site do Governo de Queensland (governo estadual; página atualizada em 27/04/2022). Não foi consultada fonte federal. A fonte não trata de foto nem de dados pessoais sensíveis.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações de currículo são convenções e podem mudar. Não constituem aconselhamento jurídico. Quando a vaga ou a instituição der instruções próprias, siga-as.",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Orientações de résumé e CV acadêmico conferidas nos guias do serviço de carreiras da Universidade Harvard (FAS Mignone Center for Career Success). É uma fonte institucional universitária, não governamental. O portal usa.gov não foi consultado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações gerais conferidas no portal EURES (Comissão Europeia). Perfil de profundidade menor que os prioritários.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações gerais do portal EURES (Comissão Europeia), obtidas por trecho de busca da página datada de julho de 2026. Perfil de profundidade menor.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Orientações simples para criar, salvar e imprimir seu currículo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Os anúncios normalmente pedem carta, currículo e certificados.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Os botões <em>Ver exemplos</em> e <em>Ver sugestões</em> mostram modelos de texto com trechos entre [colchetes] para você substituir. Eles são apenas pontos de partida e funcionam sem internet; não há inteligência artificial envolvida.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Os centros de emprego oferecem orientação; o portal cliclavoro.gov.it reúne serviços.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Os currículos atuais deste navegador serão apagados. Recomendamos exportar um backup antes. Deseja continuar?",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Os dados podem ser perdidos se você limpar os dados de navegação, usar navegação anônima ou trocar de navegador.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Os documentos costumam ir em PDF por e-mail ou portal; envio por correio é raro.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Os empregadores procuram: contato, pontos fortes de carreira, histórico de emprego, formação e treinamentos, e referees.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Os exemplos estão em português. Seu documento está em {0}: use-os só como ideia e escreva o texto no idioma do documento. O CM Studio não traduz automaticamente.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Os exemplos foram escritos em português do Brasil. Adapte ao português europeu (ex.: \"equipa\", \"telemóvel\") antes de usar.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Os termos resume e CV são usados na Austrália; o CV costuma ser mais longo e detalhado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Outros",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Outros idiomas",
+   "where": [
+    "js/editor-context.js",
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "Outros países",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "PDF",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Padronize a norma de citação das publicações.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Padrão para {0}: {1}.{2}",
+   "where": [
+    "js/editor-context.js",
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Painéis do editor",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Papel",
+   "where": [
+    "js/country-selector.js",
+    "js/editor-context.js",
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "Papel A4.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Papel Letter.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Papel US Letter como padrão.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Papel e impressão",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Papel: {0} → {1}",
+   "where": [
+    "js/country-rules.js",
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Papel: {0}.",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Para a versão completa (publicações, monitoria, referências), troque o tipo para \"Acadêmico estendido\".",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para bolsas e seleções acadêmicas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para cada termo ausente: <em>Tenho isso</em>, <em>Editar</em> ou <em>Ignorar</em>. Só depois de aceitar você pode adicioná-lo à seção de competências — com um clique seu.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para cada trabalho: título, ano, seu papel, ferramentas e link (se público).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para candidaturas a trabalhos voluntários e projetos sociais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para candidaturas a trabalhos voluntários: apresente-se, informe disponibilidade e experiências reais com causas sociais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para candidaturas acadêmicas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para candidaturas em {0}, inclua o código internacional no telefone (ex.: +55 para números do Brasil).",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "Para concorrer a bolsas: trajetória escolar, conquistas e atividades.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para gerar o PDF, use \"Imprimir / Salvar como PDF\", escolha \"Salvar como PDF\" e confira o tamanho do papel ({0}).",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Para jovens, modelos funcionais ou infográficos de 1 página estão a ser cada vez mais usados (EURES).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para onde é a sua candidatura?",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para pesquisa e pós-graduação.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para processos escolares, acadêmicos ou de bolsa.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para programas de aprendizagem. Informe série/ano, turno em que estuda e disponibilidade. Não é preciso incluir documentos pessoais (CPF, RG) nem foto no currículo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para programas de aprendizagem: destaque escola, disponibilidade e vontade de aprender.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para programas de intercâmbio: idiomas, estudos e atividades.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para qual país você deseja criar seu currículo?",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para quem ainda não teve emprego formal e quer valorizar estudos, cursos e projetos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para quem ainda não teve emprego formal. O foco está na formação, em cursos, conhecimentos de informática, projetos escolares, voluntariado e habilidades — sempre com informações reais. Ideal em uma página.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para quem já tem experiência de trabalho e quer destacar resultados.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para quem já trabalhou. Destaque experiências relevantes para a vaga, com resultados concretos. Recomenda-se até duas páginas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para restaurar, use <strong>Importar backup</strong> e escolha entre <em>mesclar</em> (adicionar) ou <em>substituir</em> os currículos atuais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para seleções acadêmicas no Brasil, o Currículo Lattes (CNPq) é uma plataforma separada. O CM Studio não substitui o Lattes; inclua o link dele, se tiver.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para seleções acadêmicas, se pedida.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para seleções de pesquisa, pós-graduação, bolsas de pesquisa e grupos acadêmicos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para trabalhos escolares, feiras de ciências, programas educacionais e processos seletivos de estudantes. Todas as seções são opcionais: remova o que não se aplica.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para trabalhos escolares, feiras, programas educacionais e processos seletivos de estudantes.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para vagas de estágio: curso, período, projetos acadêmicos e habilidades.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para {0}, nenhum dado pessoal adicional é recomendado.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Para áreas criativas e de tecnologia.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Para áreas criativas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Parcial",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Parcialmente verificado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Parte das orientações foi conferida em fontes oficiais; o restante segue convenções gerais indicadas como não verificadas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Participação semanal em [atividade], desenvolvendo [habilidade].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "País",
+   "where": [
+    "js/country-selector.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "País alterado para {0}.",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "País de destino",
+   "where": [
+    "js/editor-context.js",
+    "js/new-document.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "País de destino padrão para novos currículos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "País de destino: ",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "País e idioma",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "País padrão atualizado",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "País, idioma e finalidade",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "País: {0} → {1}",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Países Baixos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Países mais usados",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Países, idiomas e finalidades",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pedir confirmação antes de excluir itens preenchidos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pendente",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Pequeno",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Perfil genérico: não reflete as regras de nenhum país específico.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Perfil preliminar",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Perfil preliminar: CV de até 2 páginas A4, informações mais importantes primeiro, cronologia inversa e adaptado a cada vaga. Foto não obrigatória, mas habitual segundo a fonte municipal.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Perfil preliminar: as orientações não vêm de fonte nacional oficial.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Perfil: {0}",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Perfis nacionais disponíveis",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Personalizado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pesquisa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pesquisa acadêmica",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pesquisa bibliográfica",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pesquisa sobre [tema], com o objetivo de [objetivo]. Atividades: [revisão bibliográfica, coleta de dados, análise].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pesquisador(a) em formação na área de [área], com atuação em [atividades reais: iniciação científica, monitoria, extensão].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Peça autorização antes de indicar alguém como referee.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Planejamento",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Planilhas (fórmulas e gráficos)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Planilhas eletrônicas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pontualidade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Por que esta vaga, empresa ou programa? Use motivos reais e específicos. Em processos no Japão, corresponde ao campo 志望の動機.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Portfólio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Portfólio (lista de trabalhos)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Portfólio e links",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Portfólio, GitHub, Lattes, ORCID ou outros links relevantes. Use endereços completos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Portugal",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Português (Brasil)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Português (Portugal)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Praticamente todo o perfil: falta fonte nacional.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Preencha \"O que você fez\" para ver o tópico.",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Preencha este campo.",
+   "where": [
+    "js/ui.js"
+   ]
+  },
+  {
+   "id": "Preencha pelo menos uma seção para que o currículo tenha conteúdo.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Preencha só o que se aplica. Seções vazias não aparecem; você também pode excluí-las ou ocultá-las.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Preenchido com os dados do currículo; edite à vontade.",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Prefeitura de São Paulo — SMDET",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Preferências deste navegador e gerenciamento dos seus dados locais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Prefira habilidades que você consegue demonstrar com exemplos reais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Prefira resultados concretos e verificáveis a adjetivos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Preliminar",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pretensão salarial só se a vaga pedir.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Primeiro currículo? Comece por aqui",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Primeiro emprego",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Principal",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Privacidade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Privacidade de verdade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Proatividade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Procure o serviço público de emprego do país de destino e siga as orientações dele.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Profissional",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Profissional da área de [área] com [tempo] de experiência em [principais atividades]. Busco contribuir com [o que você oferece] em uma equipe que valorize [valor ou objetivo].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Programa de aprendizagem (Lei 10.097/2000): de 14 anos completos a 24 incompletos, com frequência escolar obrigatória para quem não concluiu o ensino médio.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Programas internacionais podem exigir currículo em outro idioma — confirme antes.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Projeto [pessoal/acadêmico] para [objetivo], desenvolvido com [ferramentas]. Minha participação: [atividades].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Projeto apresentado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Projeto desenvolvido na disciplina de [disciplina] sobre [tema]. Minha participação: [o que você fez — pesquisa, montagem, apresentação].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Projetos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Projetos de disciplinas contam — explique o que você fez neles.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Projetos de pesquisa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Projetos escolares",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Projetos pessoais, acadêmicos ou profissionais. Explique o objetivo e a sua participação.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pré-visualização ({0})",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Pré-visualização com dados fictícios",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pré-visualização com dados fictícios · {0} · {1} · {2}",
+   "where": [
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "Pré-visualização do currículo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Prêmios e reconhecimentos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Publicações",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Publikationsliste",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Pular para o conteúdo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Python",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Página inicial",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Página não encontrada",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Página não encontrada — CM Studio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Páginas",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "QECR A1",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "QECR A2",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "QECR B1",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "QECR B2",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "QECR C1",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "QECR C2",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Qual foi o resultado observado? (opcional)",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Qual é a finalidade do currículo?",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Quantifique conquistas reais e use verbos de ação, sem pronomes pessoais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Queensland Government",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Queensland Government (AU): carta de 1 página, adaptada e endereçada a uma pessoa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Queensland Government (AU): critérios de seleção em vagas do governo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Quero iniciar minha trajetória profissional em [área], contribuindo com [habilidade real] e aprendendo com a equipe.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Recomendado neste país",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Recomendado para {0}",
+   "where": [
+    "js/editor.js",
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "Recomendamos exportar um backup antes de continuar.",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "Redação profissional",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Refazer",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Refazer (Ctrl+Y)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Referência de até 1 página usada pelo CM Studio (convenção, não verificada em fonte oficial).",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "Referência de até {0} páginas usada pelo CM Studio (convenção, não verificada em fonte oficial).",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "Referências",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Referências \"sob pedido\": leve uma folha de referências à entrevista.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Referências / cartas de recomendação (Arbeitszeugnisse).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Região de língua alemã",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Região de língua francesa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Região de língua italiana",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Região linguística",
+   "where": [
+    "js/editor-context.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Regras conferidas no Service-Public.fr (ficha F33336, verificada pela DILA em 20/02/2026). A ficha trata do conteúdo e dos limites legais, não do layout.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Reino Unido",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Relação / cargo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Remova as seções que não fazem sentido para você — não é preciso preencher tudo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Remove todos os currículos e preferências do CM Studio deste navegador. Esta ação não pode ser desfeita.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Remover foto",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "Remover seções VAZIAS que não fazem parte do novo tipo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Renomear",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Renomear \"{0}\"",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Renomear currículo",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "Reordene as seções com as setas para colocar primeiro o que é mais importante para a oportunidade.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Reorganizar a ordem das seções conforme o novo tipo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Resolução de problemas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Responsabilidade",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Resposta a critérios de seleção (Austrália)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Resposta aos critérios de seleção",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Resultado",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Resultado (ex.: participação, menção honrosa)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Resultado da busca",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Resume",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Resume de 1 a 3 páginas, conforme o tempo de experiência, com títulos e tópicos, pontos fortes de carreira e referees (pessoas de referência).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Resume ou CV",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Resume vs CV, 1 a 3 páginas, títulos e tópicos, conteúdo esperado, referees, cover letter de uma página, critérios de seleção.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Resumo",
+   "where": [
+    "js/editor.js",
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "Resumo das alterações",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Resumo de projeto",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Revista, anais ou editora",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Revisão",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Rotinas administrativas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Résumé",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Résumé (ou CV acadêmico)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Résumé / CV (en) · Curriculum vitæ (fr)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Résumé conciso, em ordem cronológica inversa, sem foto, idade ou gênero e sem lista de referências. Para pesquisa e pós-graduação usa-se o CV acadêmico, mais longo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Résumé estudantil",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Résumé norte-americano",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Résumé ou CV",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Résumé para admissão",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Salvando…",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Salvar",
+   "where": [
+    "js/job-panel.js",
+    "js/ui.js"
+   ]
+  },
+  {
+   "id": "Salvar agora",
+   "where": [
+    "js/i18n/ui-core.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Salve o arquivo e abra-o para conferir antes de enviar.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Salvo",
+   "where": [
+    "js/editor.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Salvo apenas nesta sessão",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Saudação",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Se a empresa fornecer formulário próprio, use o formulário dela: o modelo do CM Studio é uma referência, não o formulário oficial.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Se o mesmo currículo estiver aberto em duas abas, o CM Studio avisa para evitar que uma sobrescreva a outra.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Segundo o EURES, \"a inclusão de fotografia é muitas vezes valorizada\". Continua opcional.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Segundo o EURES, não é preciso anexar foto, salvo pedido específico.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Segundo o Make it in Germany, é frequente esperar-se uma foto, mas há grandes diferenças entre setores. Continua opcional no CM Studio.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Selecione apenas o que você realmente sabe fazer. Você pode remover qualquer item depois.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Selecione um arquivo .json exportado pelo CM Studio.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Selo pessoal (hanko) não é necessário.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sem cadastro",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sem domínio do português, envie o CV em inglês.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sem fontes: perfil genérico. ",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Sem limite de páginas; a maioria dos CVs de pós-graduação tem de 2 a 5 páginas (Harvard GSAS).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sem modelo único, quatro modelos, duas páginas A4, foto não obrigatória, cópias só quando pedidas, linguagem direta, Europass como alternativa.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sem orientação verificada sobre foto",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sem orientação verificada. O CM Studio deixa a foto desativada.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Separe a formação profissional (cursos, estágios, carteira profissional ou Ordem) da educação.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Separe por tipo se necessário (artigos, capítulos, apresentações). Não inclua trabalhos não aceitos como se fossem publicados.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Separe vários itens com vírgula. Eles aparecem no currículo na ordem em que foram adicionados.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Serifado, centralizado e tradicional. Funciona para quase tudo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Service-Public.fr — DILA",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Seu currículo aparecerá aqui conforme você preencher as seções ao lado.",
+   "where": [
+    "js/preview.js"
+   ]
+  },
+  {
+   "id": "Seu currículo,<br>sua próxima oportunidade.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Seu navegador não permite salvar dados neste site (talvez esteja em navegação privativa com bloqueio de armazenamento). Você pode usar o CM Studio, mas os currículos serão perdidos ao fechar a página. <strong>Exporte um backup antes de sair.</strong>",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Seu nome",
+   "where": [
+    "js/preview.js",
+    "js/renderers/jp-rirekisho.js",
+    "js/renderers/jp-shokumu.js"
+   ]
+  },
+  {
+   "id": "Seus currículos ficam armazenados apenas neste navegador. <strong>Não existe cópia na nuvem.</strong> Se você limpar os dados de navegação, trocar de navegador ou de dispositivo, eles não estarão disponíveis — por isso, exporte backups e guarde-os em local seguro.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Seus currículos ficam salvos <strong>somente neste navegador</strong>, neste dispositivo. Nada é enviado para servidores, não há rastreamento e não é preciso criar conta.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Seus dados (remetente)",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Seus documentos ({0})",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Seus pontos fortes com um exemplo concreto de cada. Corresponde ao 自己PR em candidaturas no Japão.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Seus textos nunca são traduzidos automaticamente. Idiomas com tradução incompleta mostram o texto que falta em inglês; veja a cobertura na Central de ajuda.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Seção \"{0}\" adicionada.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Seção \"{0}\" excluída.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Seção duplicada.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Seção personalizada",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Seção sem título",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Seção vazia: ela não aparece no currículo até ser preenchida.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Seções do CV acadêmico; sem limite de páginas (2 a 5 é o mais comum); margens de 3/4 a 1 pol.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Seções do currículo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Seções vazias não são exibidas nem impressas.",
+   "where": [
+    "js/preview.js"
+   ]
+  },
+  {
+   "id": "Seções, fonte e tamanho, dados pessoais que não devem constar, referências sob pedido, formação primeiro no início da carreira.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Siga as regras da vaga, instituição ou edital (formato, idioma, número de páginas). Elas valem mais que as orientações gerais do país.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Site ou portfólio",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Site, portfólio ou Lattes",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Situação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sollicitatiebrief",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sollicitatiebrief / motivatiebrief",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Somente se o processo pedir",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sou [estudante/profissional] de [curso ou área], com interesse em [tema]. Participei de [atividade real] e busco [oportunidade] para [objetivo].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Status",
+   "where": [
+    "js/country-selector.js",
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Studio",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sua função (ex.: bolsista de IC)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sua participação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Substituir",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Substituir todos os currículos?",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Substituir tudo",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "Sucesso: ",
+   "where": [
+    "js/ui.js"
+   ]
+  },
+  {
+   "id": "Sugeridos para {0}",
+   "where": [
+    "js/editor-context.js",
+    "js/letters-ui.js",
+    "js/new-document.js"
+   ]
+  },
+  {
+   "id": "Sugerir o último país usado ao criar um novo currículo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Sugestões para \"{0}\"",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Suíça",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "São apenas modelos. Substitua os trechos entre [colchetes] por informações verdadeiras sobre você e apague o que não se aplicar.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Sépia",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Tahatū Career Navigator — New Zealand Government",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Tamanho de 1 a 2 páginas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Tamanho do papel",
+   "where": [
+    "js/editor-context.js",
+    "js/editor.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Tamanho do texto",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Telefone",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Telefone com DDD; para vagas no exterior, use +55.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Telefone parece incompleto. Use apenas números, espaços, parênteses e hífen.",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Tema atualizado",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "Tema claro ativado",
+   "where": [
+    "js/app.js"
+   ]
+  },
+  {
+   "id": "Tema da interface",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Tema escuro ativado",
+   "where": [
+    "js/app.js"
+   ]
+  },
+  {
+   "id": "Temporário — não persistente",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "Tenho interesse em [causa, área ou programa] e gostaria de contribuir com [habilidade real]. Tenho disponibilidade [dias e horários].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Tenho interesse em [área] e desejo participar de [programa, bolsa ou seleção] para desenvolver [competência ou projeto].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Tenho isso",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Texto",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Texto da carta",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Texto exato da autorização (o CM Studio oferece um texto genérico; confira se a empresa exige outro).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Texto linear, sem colunas nem cores, com títulos convencionais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Tipo",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Tipo alterado para \"{0}\".",
+   "where": [
+    "js/i18n/ui-core.js"
+   ]
+  },
+  {
+   "id": "Tipo alterado para \"{0}\". Seus dados foram preservados.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Tipos de currículo",
+   "where": [
+    "js/editor.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Todas as seções são opcionais. Seções vazias não aparecem no currículo.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Todo o perfil.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Todos os dados locais do CM Studio foram apagados.",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "Todos os outros países e opções",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Tokyo Metropolitan Government",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Trabalho atual",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Trabalho em equipe",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Trabalho em grupo com [número] integrantes para [objetivo do projeto]. Aprendi [aprendizado real].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Trabalho voluntário é experiência real, mas não deve ser apresentado como emprego formal.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Trabalhos, pesquisas ou projetos feitos na escola. Diga qual foi a sua participação.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Traduz títulos e rótulos impressos. O texto que você escrever não é traduzido automaticamente.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Traduza os certificados para alemão ou inglês.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Traduzir os títulos padrão das seções (títulos personalizados são mantidos)",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Tradução parcial",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Trancado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Trocar aba do painel",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Trocar finalidade",
+   "where": [
+    "js/editor.js",
+    "runtime"
+   ]
+  },
+  {
+   "id": "Trocar finalidade do currículo",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Trocar foto",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "Trocar o modelo muda a aparência e a estrutura impressa: nenhum dado é perdido.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Trocar o país (seus dados são mantidos)",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "Tudo é salvo automaticamente <strong>neste navegador</strong> (localStorage), alguns instantes após cada alteração. O indicador ao lado do nome mostra “Salvando…” ou “Alterações salvas”.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Término",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Título",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Título (aparece só na lista e no nome do arquivo{0}",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Título da apresentação",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Título da pesquisa",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Título da seção",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Título ou apresentação curta",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Título ou área (opcional)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Título, contexto, objetivo, o que você fez, método/ferramentas, resultado e aprendizados.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Tópico inserido. Revise o texto antes de enviar.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Tópico que será inserido:",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Tópicos da ajuda",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Um currículo para cada objetivo",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Um item em \"{0}\" está sem o campo \"{1}\".",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Um trecho de texto é maior que uma página inteira e pode ser cortado. Divida-o em linhas ou tópicos menores.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Uma atividade por linha. Comece linhas com \"-\" para criar tópicos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Uma coluna, organização em destaque e datas à direita; foco em resultados e concisão.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Uma informação por linha. Use \"-\" no início para tópicos.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Uma página bem organizada é o ideal.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Uma página para início de carreira.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Uma página, adaptada e endereçada à pessoa de contato.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Uma página, adaptada à vaga e, se possível, endereçada a uma pessoa.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Uma página: seu endereço, endereço da empresa, local e data, assunto (Betreff, sem a palavra \"Betreff\"), saudação, texto, fecho e assinatura.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Uma referência por linha (comece com \"-\"), no estilo de citação da sua área.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Uma seção de tipo desconhecido foi convertida em \"Seção personalizada\".",
+   "where": [
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "Universidades e institutos costumam fornecer formulários próprios para currículo e lista de publicações: use-os quando houver.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Usada com moderação. O conteúdo continua legível em impressão preto e branco.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Usar saudação e fecho padrão do idioma",
+   "where": [
+    "js/letters-ui.js"
+   ]
+  },
+  {
+   "id": "Usar {0}",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Use \"Adicionar seção\" para montar o currículo do seu jeito. Renomeie títulos livremente.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use \"Objet :\" e uma fórmula de cortesia de fechamento.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use 5 a 7 tópicos por seção.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use <em>Adicionar seção</em> para incluir feiras de ciências, olimpíadas, grêmio estudantil, monitoria, publicações e outras.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use <strong>Exportar backup</strong> (em Meus currículos ou Configurações) para baixar um arquivo .json. Guarde-o em local seguro, como seu e-mail ou um pendrive.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use apenas resultados reais; indique se o projeto foi individual ou em equipe.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use fonte clara (Arial, Calibri ou Times) em tamanho 11 ou maior, com títulos e tópicos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use linguagem direta e frases simples; evite siglas e abreviações.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use linguagem específica, ativa e baseada em fatos; quantifique e qualifique resultados reais.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use o código internacional (ex.: +55 para números do Brasil).",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Use palavras-chave do anúncio (cargo, setor, habilidades, ferramentas), que os sistemas de triagem procuram.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use para qualquer conteúdo que não se encaixe nas outras seções. Renomeie o título.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use português europeu (telemóvel, morada, formação profissional, carta de condução).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use só se necessário (ex.: local ou horário). No Japão (本人希望記入欄) costuma-se escrever que segue as regras da empresa, salvo necessidade real.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Use títulos e tópicos curtos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Vaga",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Vagas do governo costumam pedir respostas aos \"selection criteria\".",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Variante de {0}",
+   "where": [
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "Vazia",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Vendas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ver exemplos",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Ver exemplos de texto para {0}",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Ver fontes do perfil",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Ver sugestões",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Ver todos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Verbo de ação (no idioma do documento)",
+   "where": [
+    "js/writing-assistant.js"
+   ]
+  },
+  {
+   "id": "Verde",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Verde-azulado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Verificado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Verificado em fonte oficial",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Verificação",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "Versão completa para pesquisa e pós-graduação: interesses de pesquisa, publicações, apresentações, bolsas, monitoria e referências. Pode ter várias páginas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Versão completa para pesquisa, pós-graduação e programas acadêmicos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Versão resumida com formação, projetos, pesquisas, prêmios e idiomas. Para uma versão completa, use “Acadêmico estendido”.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Versão resumida para inscrições em faculdades, programas e seleções acadêmicas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Videochamadas",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Vinho",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Visualizar",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Você decide com quem compartilhar o PDF ou o backup gerado.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Você indicou que tem",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Você não precisa informar saúde, gravidez nem convicções sindicais, políticas ou religiosas. O empregador não pode pedir informações discriminatórias.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Você pode listar só o percurso relacionado à vaga e a formação mais alta ou relacionada.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Você também pode buscar pelo idioma (ex.: \"francês\") ou pelo nome no idioma local.",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "Você também pode incluir um termo manualmente no texto das experiências — de preferência com um exemplo concreto e verdadeiro.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "Voltar",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Voltar para Meus currículos",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Voluntariado",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Várias páginas, cabeçalho corrido e publicações numeradas.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Windows / Linux",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Wissenschaftlicher Lebenslauf",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Zoom da pré-visualização",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Zoom inicial da pré-visualização",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "[Nível de formação] em [área], com experiência em [linha de pesquisa ou método]. Meus interesses incluem [temas]. Atualmente desenvolvo [projeto real] sob orientação de [nome, se desejar informar].",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "arbeit.swiss (SECO): carta com endereços, data, assunto, saudação, fecho e assinatura",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "arbeit.swiss — SECO",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "até {0}",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "currículo",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "currículo exibido",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "currículo importado",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "currículo válido",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "currículos",
+   "where": [
+    "js/settings.js"
+   ]
+  },
+  {
+   "id": "currículos exibidos",
+   "where": [
+    "js/library.js"
+   ]
+  },
+  {
+   "id": "currículos importados",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "currículos válidos",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "fonte",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "fonte consultada",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "fontes",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "fontes consultadas",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "github.com/seu-usuario",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "item",
+   "where": [
+    "js/editor.js",
+    "js/i18n/ui-core.js"
+   ]
+  },
+  {
+   "id": "item adicionado",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "itens",
+   "where": [
+    "js/editor.js",
+    "js/i18n/ui-core.js"
+   ]
+  },
+  {
+   "id": "itens adicionados",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "linkedin.com/in/seu-perfil",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "livre",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "macOS",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "nenhuma",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "nome@exemplo.com",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "normalmente não é usado",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "não é recomendado",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "país encontrado",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "países encontrados",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "página",
+   "where": [
+    "js/editor.js",
+    "js/letters-ui.js",
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "páginas",
+   "where": [
+    "js/editor.js",
+    "js/letters-ui.js",
+    "js/validation.js"
+   ]
+  },
+  {
+   "id": "seção está",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "seções estão",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "termo adicionado",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "termo marcado já aparece",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "termos adicionados",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "termos marcados já aparecem",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "título atualizado",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "título personalizado mantido",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "títulos atualizados",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "títulos personalizados mantidos",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "ver fontes e detalhes",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "yodogawaroukyou.gr.jp; forest-sr.com",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "{0} (cópia)",
+   "where": [
+    "js/state.js"
+   ]
+  },
+  {
+   "id": "{0} (não verificado na fonte)",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "{0} Estas são convenções, não exigências legais.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "{0} Exporte um backup para não perder suas alterações.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "{0} Para {1}, a foto nunca é obrigatória no CM Studio.",
+   "where": [
+    "js/photo.js"
+   ]
+  },
+  {
+   "id": "{0} Seus dados foram preservados.",
+   "where": [
+    "js/editor-context.js"
+   ]
+  },
+  {
+   "id": "{0} aceitos · {1} editados · {2} ignorados · {3} pendentes.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "{0} ao currículo nesta sessão{1}.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "{0} avisos",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "{0} com sucesso.",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "{0} com título em outro idioma ({1}). Use \"Atualizar títulos para o idioma\" nas configurações do documento.",
+   "where": [
+    "js/country-rules.js"
+   ]
+  },
+  {
+   "id": "{0} de {1}",
+   "where": [
+    "js/job-panel.js",
+    "js/ui-language.js"
+   ]
+  },
+  {
+   "id": "{0} de {1} preenchidos",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "{0} no currículo.",
+   "where": [
+    "js/job-panel.js"
+   ]
+  },
+  {
+   "id": "{0} para {1}.",
+   "where": [
+    "js/editor.js"
+   ]
+  },
+  {
+   "id": "{0} salvos",
+   "where": [
+    "js/home.js"
+   ]
+  },
+  {
+   "id": "{0} · consultado em {1}",
+   "where": [
+    "js/country-selector.js"
+   ]
+  },
+  {
+   "id": "{0} · {1} · alterado {2}",
+   "where": [
+    "js/home.js"
+   ]
+  },
+  {
+   "id": "{0} — CM Studio",
+   "where": [
+    "js/app.js"
+   ]
+  },
+  {
+   "id": "{0}Currículo",
+   "where": [
+    "js/print.js"
+   ]
+  },
+  {
+   "id": "Ásia",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "É uma comparação de palavras: não reconhece sinônimos, não avalia sua experiência e <strong>não é uma nota</strong>. Não garante aprovação em sistemas de triagem (ATS) nem em processos seletivos.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "Última alteração",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "… e mais {0}",
+   "where": [
+    "js/export-import.js"
+   ]
+  },
+  {
+   "id": "履歴書",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "履歴書 (rirekisho)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "履歴書 (rirekisho) + 職務経歴書 (shokumu keirekisho)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "履歴書 + 職務経歴書",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "履歴書 como documento geral, 職務経歴書 cada vez mais pedido, folha de envio, formulário modelo do MHLW.",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "履歴書 ou résumé",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "研究業績書 / Academic CV",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "職務経歴書 (shokumu keirekisho)",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "職務経歴書: 1 ou 2 páginas (Tokyo Career Guide).",
+   "where": [
+    "runtime"
+   ]
+  },
+  {
+   "id": "送付状 (folha de envio)",
+   "where": [
+    "runtime"
+   ]
+  }
+ ]
+}

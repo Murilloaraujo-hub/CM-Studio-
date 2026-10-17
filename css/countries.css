@@ -1,0 +1,218 @@
+/* ==========================================================================
+   CM Studio — countries.css
+   Atualização internacional: assistente de criação, seletor de país,
+   bandeiras, selos de status, barra de contexto do editor, campos
+   adicionais, foto, aba Vaga, aba Cartas e folhas de cartas.
+   ========================================================================== */
+
+/* ---------------- Bandeiras (sempre acompanhadas do nome) ---------------- */
+.flag { width: 24px; height: 16px; flex: 0 0 auto; border-radius: 2px; display: inline-block; vertical-align: middle; }
+.flag--lg { width: 36px; height: 24px; border-radius: 3px; }
+
+/* ---------------- Selos de status ---------------- */
+.status-badge {
+  display: inline-flex; align-items: center; padding: 1px 8px; border-radius: var(--r-pill);
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.02em; white-space: nowrap; line-height: 1.6;
+  border: 1px solid transparent;
+}
+.status-badge--ok { background: var(--ok-soft); color: var(--ok); }
+.status-badge--warn { background: var(--warn-soft); color: var(--warn); }
+.status-badge--neutral { background: var(--surface-3); color: var(--text-2); border-color: var(--border); }
+
+/* ---------------- Assistente (4 etapas) ---------------- */
+.wizard-container { max-width: 1120px; }
+.wizard-steps { list-style: none; margin: var(--sp-4) 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--sp-2) var(--sp-5); counter-reset: none; }
+.wizard-steps li { display: inline-flex; align-items: center; gap: var(--sp-2); color: var(--text-3); font-size: var(--fs-sm); font-weight: 600; }
+.wizard-steps li .step-num { background: var(--surface-3); color: var(--text-2); width: 26px; height: 26px; font-weight: 700; }
+.wizard-steps li.is-current { color: var(--text); }
+.wizard-steps li.is-current .step-num { background: var(--accent); color: var(--on-accent); }
+.wizard-steps li.is-done { color: var(--text-2); cursor: pointer; }
+.wizard-steps li.is-done .step-num { background: var(--accent-soft); color: var(--accent-text); }
+.wizard-steps li.is-done:hover .wizard-step-label { text-decoration: underline; }
+.wizard-step { padding: var(--sp-5) 0 var(--sp-4); }
+.step-heading { font-family: var(--font-display); font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.6rem); font-weight: 700; margin: 0 0 var(--sp-2); letter-spacing: -0.01em; }
+.step-heading:focus { outline: none; }
+.step-help { color: var(--text-2); max-width: 70ch; margin: 0 0 var(--sp-5); }
+.wizard-split { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(280px, 1fr); gap: var(--sp-6); align-items: start; }
+.wizard-split--tpl { grid-template-columns: minmax(0, 1.3fr) minmax(240px, 0.8fr); }
+.wizard-aside { position: sticky; top: 84px; display: flex; flex-direction: column; gap: var(--sp-3); }
+.wizard-preview { position: sticky; top: 84px; }
+.wizard-preview-frame { border: 1px solid var(--border); border-radius: var(--r-md); overflow: hidden; background: #fff; box-shadow: var(--shadow-sm); }
+.wizard-actions { align-items: center; }
+.wizard-spacer { flex: 1 1 auto; }
+.wizard-review { margin-top: var(--sp-5); padding: var(--sp-4); border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface-2); }
+.summary-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: var(--sp-3); margin: var(--sp-2) 0 var(--sp-4); }
+.summary-list dt { font-size: var(--fs-xs); color: var(--text-2); }
+.summary-list dd { margin: 0; font-weight: 650; }
+.type-doc { display: block; margin-top: 4px; font-size: var(--fs-xs); color: var(--accent-text); font-weight: 600; }
+.new-form .check { margin-top: var(--sp-3); }
+
+/* ---------------- Seletor de país ---------------- */
+.country-selector { display: flex; flex-direction: column; gap: var(--sp-2); }
+.country-search { max-width: 520px; }
+.country-results { font-size: var(--fs-sm); color: var(--text-2); min-height: 1.2em; }
+.country-group { margin-top: var(--sp-3); }
+.country-group-title { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-3); margin: 0 0 var(--sp-2); font-family: var(--font-ui); }
+.country-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: var(--sp-2); }
+.country-opt { position: relative; display: block; cursor: pointer; }
+.country-opt-box {
+  display: flex; align-items: center; gap: var(--sp-3); padding: 10px 12px; min-height: 52px;
+  border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface);
+  transition: border-color var(--t-fast), background var(--t-fast);
+}
+.country-opt:hover .country-opt-box { border-color: var(--border-strong); }
+.country-opt input:checked + .country-opt-box { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); background: color-mix(in srgb, var(--accent-soft) 60%, var(--surface)); }
+.country-opt input:focus-visible + .country-opt-box { outline: 2px solid var(--focus); outline-offset: 2px; }
+.country-opt-text { display: flex; flex-direction: column; min-width: 0; flex: 1 1 auto; line-height: 1.25; }
+.country-opt-name { font-size: var(--fs-sm); }
+.country-opt-local { font-size: var(--fs-xs); color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.country-opt .status-badge { margin-left: auto; }
+
+/* Cartão de resumo do perfil */
+.country-card { border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface); padding: var(--sp-4); display: flex; flex-direction: column; gap: var(--sp-3); }
+.country-card-head { display: flex; gap: var(--sp-3); align-items: center; }
+.country-card-title { font-size: var(--fs-md); margin: 0; font-weight: 700; }
+.country-card-status { margin: 2px 0 0; font-size: var(--fs-xs); color: var(--text-2); display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.country-card-summary { margin: 0; color: var(--text); font-size: var(--fs-sm); }
+.country-card-facts { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-2) var(--sp-3); margin: 0; }
+.country-card-facts dt { font-size: var(--fs-xs); color: var(--text-3); }
+.country-card-facts dd { margin: 0; font-size: var(--fs-sm); font-weight: 600; }
+.country-card-note { margin: 0; font-size: var(--fs-xs); color: var(--text-2); }
+.country-card-sources { margin: 0; font-size: var(--fs-xs); color: var(--text-2); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.country-card-sources .icon { width: 14px; height: 14px; }
+.source-item { border-left: 3px solid var(--border-strong); padding: 2px 0 2px var(--sp-3); margin: var(--sp-2) 0; }
+.source-item p { margin: 0; }
+.source-title { font-weight: 650; font-size: var(--fs-sm); }
+.source-meta, .source-supports { font-size: var(--fs-xs); color: var(--text-2); }
+.dialog-subtitle { font-size: var(--fs-sm); margin: var(--sp-4) 0 var(--sp-2); }
+.dialog--wide { width: min(820px, calc(100vw - 24px)); }
+
+/* Tabela de países (ajuda) */
+.table-wrap { overflow-x: auto; margin: var(--sp-4) 0 var(--sp-2); }
+.country-table { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); }
+.country-table caption { text-align: left; font-weight: 700; margin-bottom: var(--sp-2); }
+.country-table th, .country-table td { border-bottom: 1px solid var(--border); padding: 8px 10px; text-align: left; vertical-align: middle; }
+.country-table thead th { font-size: var(--fs-xs); color: var(--text-2); text-transform: uppercase; letter-spacing: 0.05em; }
+.country-table tbody th { font-weight: 650; white-space: nowrap; }
+
+/* ---------------- Barra de contexto do editor ---------------- */
+.editor-context { border-bottom: 1px solid var(--border); background: var(--surface); padding: 6px var(--sp-4); }
+.ctx-row { display: flex; gap: 6px; align-items: stretch; overflow-x: auto; scrollbar-width: thin; }
+.ctx-chip {
+  display: inline-flex; align-items: center; gap: 8px; padding: 4px 10px; min-height: 40px;
+  border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface-2);
+  color: var(--text); font: inherit; cursor: pointer; white-space: nowrap; flex: 0 0 auto; text-align: left;
+}
+.ctx-chip:hover { border-color: var(--border-strong); background: var(--surface); }
+.ctx-chip:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+.ctx-chip .icon { width: 16px; height: 16px; color: var(--text-2); }
+.ctx-chip.is-warn { border-color: color-mix(in srgb, var(--warn) 45%, var(--border)); }
+.ctx-chip .ctx-warn { color: var(--warn); }
+.ctx-text { display: flex; flex-direction: column; line-height: 1.15; }
+.ctx-label { font-size: 0.66rem; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700; }
+.ctx-value { font-size: var(--fs-sm); font-weight: 650; }
+.ctx-status { display: inline-flex; align-items: center; margin-left: auto; padding-left: var(--sp-2); }
+.ds-country { border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--sp-3); margin-bottom: var(--sp-4); }
+.ds-country summary { cursor: pointer; }
+.ds-picker { margin-top: var(--sp-2); max-height: 340px; overflow: auto; }
+.ds-changes { margin-top: var(--sp-3); }
+.field--action { display: flex; align-items: flex-end; }
+.type-banner-src { margin: var(--sp-2) 0 0; font-size: var(--fs-xs); }
+
+/* ---------------- Dados adicionais e foto ---------------- */
+.extras-block { margin-top: var(--sp-4); padding-top: var(--sp-3); border-top: 1px dashed var(--border); }
+.extras-title { font-size: var(--fs-sm); margin: 0 0 var(--sp-2); }
+.field--policy-discouraged .label, .field--policy-hidden .label { color: var(--warn); }
+.photo-block { margin-top: var(--sp-4); padding: var(--sp-3); border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface-2); }
+.photo-head { display: flex; gap: var(--sp-2); align-items: center; flex-wrap: wrap; }
+.photo-row { display: flex; gap: var(--sp-4); align-items: flex-start; margin: var(--sp-2) 0; }
+.photo-thumb { width: 72px; height: 96px; flex: 0 0 auto; border-radius: 6px; overflow: hidden; border: 1px solid var(--border); background: var(--surface); display: flex; align-items: center; justify-content: center; color: var(--text-3); }
+.photo-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.photo-actions { display: flex; flex-direction: column; gap: var(--sp-2); align-items: flex-start; }
+.photo-actions label.btn { cursor: pointer; }
+.photo-actions label.btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+/* ---------------- Revisão agrupada ---------------- */
+.review-group-title { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-3); margin: var(--sp-4) 0 var(--sp-2); font-family: var(--font-ui); }
+.review-group-title:first-of-type { margin-top: var(--sp-2); }
+
+/* ---------------- Assistente de conquistas ---------------- */
+.wa-btn { margin-top: 4px; display: inline-flex; align-items: center; gap: 4px; }
+.wa-btn .icon { width: 14px; height: 14px; }
+.wa-preview { padding: var(--sp-3); border: 1px dashed var(--border-strong); border-radius: var(--r-md); background: var(--surface-2); font-size: var(--fs-sm); margin: 0 0 var(--sp-2); white-space: pre-wrap; }
+.wa-preview.is-empty { color: var(--text-3); }
+
+/* ---------------- Aba Vaga ---------------- */
+.job-results:focus { outline: none; }
+.job-summary { font-size: var(--fs-md); margin: 0 0 4px; }
+.kw-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.kw-chip { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border-radius: var(--r-pill); font-size: var(--fs-xs); font-weight: 600; background: var(--ok-soft); color: var(--ok); }
+.kw-chip .icon { width: 12px; height: 12px; }
+.kw-rows { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.kw-row { display: flex; gap: var(--sp-2); align-items: center; justify-content: space-between; flex-wrap: wrap; padding: 8px 10px; border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface); }
+.kw-row--ignored { opacity: 0.65; }
+.kw-row--accepted, .kw-row--edited { border-color: color-mix(in srgb, var(--accent) 35%, var(--border)); }
+.kw-row-actions { display: flex; gap: 4px; flex-wrap: wrap; }
+.job-changes { margin-top: var(--sp-4); }
+
+/* ---------------- Aba Cartas ---------------- */
+.companion-suggest, .companion-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--sp-2); }
+.companion-suggest li, .companion-item { display: flex; justify-content: space-between; align-items: center; gap: var(--sp-3); padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface); }
+.companion-suggest p, .companion-item p { margin: 2px 0 0; }
+.companion-suggest .badge { margin-left: 6px; }
+.companion-item.is-active { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.companion-actions { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+.cmp-other summary { cursor: pointer; font-weight: 650; margin-bottom: var(--sp-2); }
+.companion-preview-wrap { margin: var(--sp-4) 0 var(--sp-3); max-width: 320px; }
+.companion-preview { border: 1px solid var(--border); border-radius: var(--r-sm, 6px); aspect-ratio: auto; }
+
+/* Folhas de cartas (pré-visualização e impressão) */
+.letter-doc { --r-margin-x: 22mm; --r-margin-y: 20mm; font-size: 10.5pt; line-height: 1.5; }
+.letter-doc .page { padding: var(--r-margin-y) var(--r-margin-x); }
+.letter-doc .lb { margin: 0 0 4.5mm; }
+.letter-doc .lb p { margin: 0; }
+.letter-doc .lb-p p + p { margin-top: 1mm; }
+.letter-doc .lb-sender { text-align: right; font-size: 9.5pt; color: #333; }
+.letter-doc .lb-sender.is-left { text-align: left; }
+.letter-doc.lang-de .lb-sender { text-align: left; }
+.letter-doc .lb-recipient { margin-top: 6mm; }
+.letter-doc .lb-date.is-right { text-align: right; }
+.letter-doc .lb-subject { font-weight: 700; margin-top: 4mm; }
+.letter-doc .lb-salutation { margin-top: 3mm; }
+.letter-doc .lb-list ul { margin: 0; padding-left: 5mm; }
+.letter-doc .lb-h h2 { font-size: 11pt; margin: 2mm 0 0; }
+.letter-doc .lb-sign-space { height: 14mm; }
+.letter-doc .lb-enc { font-size: 9pt; color: #444; }
+.letter-doc .lb-head { border-bottom: 1px solid #cfd3d6; padding-bottom: 3mm; margin-bottom: 6mm; }
+.letter-doc .lb-title { font-size: 16pt; margin: 0; font-weight: 700; }
+.letter-doc .lb-name { color: #555; margin-top: 1mm !important; }
+.letter-doc .is-placeholder { color: #9aa0a6; font-style: italic; }
+
+/* ---------------- Responsivo ---------------- */
+@media (max-width: 900px) {
+  .wizard-split, .wizard-split--tpl { grid-template-columns: 1fr; }
+  .wizard-aside, .wizard-preview { position: static; }
+  .wizard-preview { max-width: 360px; }
+}
+@media (max-width: 560px) {
+  .country-grid { grid-template-columns: 1fr; }
+  .country-card-facts { grid-template-columns: 1fr; }
+  .wizard-actions .btn--lg { width: 100%; justify-content: center; }
+  .wizard-spacer { display: none; }
+  .ctx-chip { min-height: 36px; padding: 3px 8px; }
+  .photo-row { flex-direction: column; }
+}
+@media print {
+  .editor-context { display: none !important; }
+}
+/* O campo de busca do seletor fica numa coluna flex: não deve crescer na altura */
+.country-selector .search-field { flex: 0 0 auto; }
+
+/* ---------------- Início: países ---------------- */
+.home-countries { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: var(--sp-2); }
+.home-country { display: flex; align-items: center; gap: var(--sp-3); padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface); color: var(--text); text-decoration: none; min-height: 48px; }
+.home-country:hover { border-color: var(--border-strong); }
+.home-country:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.home-country-name { font-weight: 650; font-size: var(--fs-sm); flex: 1 1 auto; }
+.doc-country { display: inline-flex; align-items: center; gap: 4px; }
+.doc-country .flag { width: 18px; height: 12px; }

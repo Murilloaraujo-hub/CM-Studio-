@@ -1,0 +1,117 @@
+/* ==========================================================================
+   CM Studio — tokens.css
+   Variáveis de design (cores, tipografia, espaçamentos, sombras) para os
+   temas claro e escuro da INTERFACE. Os currículos têm estilos próprios
+   (templates.css) e são sempre brancos.
+   ========================================================================== */
+:root {
+  /* Tipografia */
+  --font-ui: "Inter", "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Roboto, Arial, sans-serif;
+  --font-display: "Inter Tight", "Segoe UI Variable Display", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: clamp(2rem, 1.4rem + 2.6vw, 3.25rem);
+
+  /* Espaçamentos (escala de 4 px) */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+
+  /* Raios */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-pill: 999px;
+
+  /* Movimento */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --t-fast: 120ms;
+  --t-med: 200ms;
+
+  /* Medidas */
+  --header-h: 60px;
+  --container: 1160px;
+  --tap: 44px;
+
+  /* Tema claro */
+  --bg: #f4f5f2;
+  --bg-sunken: #e9ebe6;
+  --surface: #ffffff;
+  --surface-2: #f8f9f7;
+  --surface-3: #f0f2ef;
+  --border: #e0e3dd;
+  --border-strong: #c9cec6;
+  --text: #1c2228;
+  --text-2: #4a535c;
+  --text-3: #66707a;
+  --accent: #0f6b6f;
+  --accent-hover: #0b5a5d;
+  --accent-soft: #e2efee;
+  --accent-text: #0b5c60;
+  --on-accent: #ffffff;
+  --danger: #b42318;
+  --danger-hover: #951c13;
+  --danger-soft: #fdecea;
+  --warn: #8a5a00;
+  --warn-soft: #fbf1db;
+  --ok: #1d7448;
+  --ok-soft: #e4f3ea;
+  --focus: #0f6b6f;
+  --focus-ring: 0 0 0 3px rgba(15, 107, 111, 0.28);
+  --shadow-sm: 0 1px 2px rgba(20, 28, 36, 0.06);
+  --shadow-md: 0 2px 6px rgba(20, 28, 36, 0.05), 0 8px 24px rgba(20, 28, 36, 0.07);
+  --shadow-lg: 0 12px 40px rgba(20, 28, 36, 0.16);
+  --shadow-page: 0 1px 3px rgba(20, 28, 36, 0.12), 0 10px 30px rgba(20, 28, 36, 0.10);
+  --preview-bg: #e3e6e1;
+  --backdrop: rgba(18, 24, 30, 0.45);
+
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #121518;
+  --bg-sunken: #0d1012;
+  --surface: #1a1e22;
+  --surface-2: #1f2428;
+  --surface-3: #262c31;
+  --border: #2d3439;
+  --border-strong: #3c444b;
+  --text: #e6e9ec;
+  --text-2: #b3bbc3;
+  --text-3: #8d97a0;
+  --accent: #52b5b6;
+  --accent-hover: #6fc6c7;
+  --accent-soft: #173638;
+  --accent-text: #7fd2d3;
+  --on-accent: #0b1d1e;
+  --danger: #f0786c;
+  --danger-hover: #f4958b;
+  --danger-soft: #3a1f1c;
+  --warn: #e7b955;
+  --warn-soft: #362c16;
+  --ok: #6cc795;
+  --ok-soft: #173326;
+  --focus: #6fc6c7;
+  --focus-ring: 0 0 0 3px rgba(82, 181, 182, 0.35);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.35), 0 8px 24px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.55);
+  --shadow-page: 0 1px 3px rgba(0, 0, 0, 0.5), 0 10px 30px rgba(0, 0, 0, 0.45);
+  --preview-bg: #0e1113;
+  --backdrop: rgba(0, 0, 0, 0.6);
+
+  color-scheme: dark;
+}
